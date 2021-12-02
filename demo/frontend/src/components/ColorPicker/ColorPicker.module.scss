@@ -1,0 +1,34 @@
+@import "../../styles/app";
+
+.colorsList {
+  display: flex;
+  flex-wrap: wrap;
+
+  .colorBox {
+    min-width: 38px;
+    height: 38px;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 3px;
+    transition: $transition-base;
+
+    :global {
+      .rc-color-picker-trigger {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &:hover {
+      border-color: darken($border-color, 30%);
+    }
+
+    &.active {
+      border: 3px solid var(--main-color);
+    }
+    &.activeThemeColor {
+      border: 3px solid $black;
+    }
+  }
+}

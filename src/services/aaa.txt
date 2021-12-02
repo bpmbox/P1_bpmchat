@@ -1,0 +1,5259 @@
+BPMSでナビゲーターは作成する
+
+ナビゲーターは機関システムとは関係ないため
+
+→
+BPMSで全てをやろうとすると、。。　大変なのもある
+
+開発チャット
+ーーーーーーーーーーーーーーーーー
+検索　●
+登録　●
+画面登録　●
+画面ロード　●
+プログラム登録　●
+プログラムロード　●
+ーーーーーーーーーーーーーーーーー
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+サポートの場合はバイトを依頼してください。
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+
+
+出来ましたね　登録お願いします
+
+https://sandbox.onlinephpfunctions.com/
+https://www.jdoodle.com/python3-programming-online/
+
+１，マークダウンで内容をまとめてください
+２，マークダウンの使い方はチャットできいてください
+
+質問一覧
+
+追加　→足りない箇所は
+追加と押してから画面に内容を登録してください
+
+画面はプロジェクトにより必要な機能を追加
+→サンプルふぁいるはドキュメントに保存
+
+　　　ーー　ベータ版を元に検索システムの設定　　ーーーーーー
+ーーー
+　　　ーー　フロント　必要機能の単体部品作成　　ーーーーーー　　　終了後、ーー　単体テスト　ーー　結合テスト
+　　　
+　　　ーー　バックエンド　必要部品のバックエンド作成　ーーー
+
+　
+ーーーーーーーーーーーーーーー→　検索システム
+
+
+
+■AI
+
+OKですね。
+
+１，設定をする
+　　→サンプルがあるので　Dcokerで起動してください
+
+２，Colabで実行環境を立ち上げてください
+３，GoogleCodeでVSCODEを達が下てください
+４，出来たら次に進んでください
+５，ステージングサーバーにアップして、
+　　CI　DIで更新を確認してください
+
+６，テスターのテスト内容
+
+　　各種チャットは目的のデータに追加と検索ができるようにしておく
+
+総合チャットはすべてをみれる。
+
+機能一覧の追加　→　これは　
+
+
+登録
+分からなかったら
+リストボックスとかうつと
+
+
+
+JSONの階層型対応システムは
+
+PHPRUNERでないと対応できない
+
+
+リアルタイム登録に変更
+ 
+ var data = {Hello:'world'};
+  var payload = JSON.stringify(data)
+  var output = ContentService.createTextOutput();
+  output.setMimeType(ContentService.MimeType.JSON);
+  output.setContent(payload);
+  
+  return output;
+
+
+画面の登録
+　→GDOC　ある程度コードは覚える
+　→
+
+
+
+https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=FAAj7ByBXBnBTEsAuAnAlgY2ZA3KCcTAGwENZYQA1Ae2XgCFplkaA7EeAD3rYBNKAJXilsAOgDCNALYAHdvDbIQAbwKFCmdilTRsNVAApZqGrNgBKVeo23Y0WfCMmzl_LY8hkAC3SwxKKT0IAC8qiAAbnTwfABcIABmpMQIIAC-7p5gacA2HqiKfE6GVmpZGugJIIY-fgHIQfBiUfR8pXnlEAXI0Kgchh2dGgA8AEbMrBzsEsRYANYhKiWhAHxevv4IyADKDfSGKpHRcYnJqWkWaSuDQx4tMTe3YMMA9OMs7NdPhBaPtmmcFKIMrfcDdXr9P63MYTdggaazTALJZWEJrWqbeA7PbwA5HVrxNDQRAXK5Q0H3cmdV7vSZfUFgCyZW45Tqs_43Pg0TDQaSKZBiACOxNQAE9tvBiPB9KgAILEYiGSDNaIAfVp7FVWiUpHQbCckF-nTECQMAFFRN5DFzpFIdXqnKtrN9hKJkAARADyAFkxAV-MUqbZXeJMAVGmapXylIZaPQmB82BYADRBjQ2u0NB2oNMgJnki7MoA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.16.4&externalPlugins=&assumptions=%7B%7D
+
+<script>
+'use strict';
+
+class VoteButton extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      voted: false
+    };
+  }
+
+  render() {
+    if (this.state.voted) {
+      return /*#__PURE__*/React.createElement("button", {
+        onClick: () => this.setState({
+          voted: false
+        })
+      }, "voted");
+    } else {
+      return /*#__PURE__*/React.createElement("button", {
+        onClick: () => this.setState({
+          voted: true
+        })
+      }, "vote");
+    }
+  }
+
+}
+
+VOTE
+    候補者1:田中
+    <div class="vote_button_container"></div>
+    </p>
+    
+    <p>
+    候補者2:鈴木
+    <div class="vote_button_container"></div>
+    </p>
+    
+    <p>
+    候補者3:佐藤
+    <div class="vote_button_container"></div>
+    </p>
+<script>
+document.querySelectorAll('.vote_button_container').forEach(domContainer => {
+  ReactDOM.render(React.createElement(VoteButton), domContainer);
+});
+</script>
+ 
+
+<p>
+    候補者1:田中
+    <div class="vote_button_container"></div>
+    </p>
+    
+    <p>
+    候補者2:鈴木
+    <div class="vote_button_container"></div>
+    </p>
+    
+    <p>
+    候補者3:佐藤
+    <div class="vote_button_container"></div>
+    </p>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+        'use strict';
+        class VoteButton extends React.Component {
+            constructor(props) {
+                super(props);
+                this.state = { voted: false };
+            }
+
+            render() {
+                if (this.state.voted) {
+                    return (
+                        <button onClick={() => this.setState({ voted: false })}>
+                            voted
+                        </button>
+                    )
+                } else {
+                    return (
+                        <button onClick={() => this.setState({ voted: true })}>
+                            vote
+                        </button>
+                    );
+                }
+            }
+        }
+<script type="text/babel">
+        document.querySelectorAll('.vote_button_container')
+            .forEach(domContainer => {
+                ReactDOM.render(
+                    React.createElement(VoteButton),
+                    domContainer
+                );
+            });
+    </script>
+
+
+
+■React.js & Next.js超入門 第2版
+■サンプルコード
+
+
+---------------------------------
+■1章
+---------------------------------
+
+
+▼リスト1-1
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>React</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <h1>React</h1>
+    <div id="root">wait...</div>
+</body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト1-2
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>React</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <h1>React</h1>
+    <div id="root">wait...</div>
+    <script>
+    let dom = document.querySelector('#root');
+    let element = React.createElement(
+      'p', {}, 'Hello React!'
+    )
+    ReactDOM.render(element, dom)
+    </script>
+</body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト1-3
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>React</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <style>
+    #root {
+        cursor: pointer;
+        font-size:20pt;
+        background-color:lightblue;
+        padding:1px 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>React</h1>
+    <div id="root" onclick="doCount();">wait...</div>
+    <script>
+    let counter = 0;
+    let dom = document.querySelector('#root');
+    doCount();
+
+    function doCount(){
+        counter++;
+        let element = React.createElement(
+            'p', {}, "count: " + counter
+        )
+        ReactDOM.render(element, dom)
+    }
+    </script>
+</body>
+</html>
+
+
+
+---------------------------------
+■2章
+---------------------------------
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+<script>
+const simplemde = new SimpleMDE();
+</script>
+
+
+
+▼リスト2-1
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>React</title>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <h1>React</h1>
+  <div id="root">wait...</div>
+  <script>
+  let dom = document.querySelector('#root')
+  let element = React.createElement(
+    'p', {}, 'Hello React!'
+  )
+  ReactDOM.render(element, dom)
+  </script>
+</body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト2-2
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>React</title>
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <h1>React</h1>
+  <div id="root">wait...</div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト2-3
+let dom = document.querySelector('#root')
+
+let element = React.createElement(
+  'p', {}, 'Hello React Application!'
+)
+
+ReactDOM.render(element, dom)
+
+
+
+---------------------------------
+
+
+▼リスト2-4
+let dom = document.querySelector('#root')
+
+let element = React.createElement(
+  'div', {}, [
+    React.createElement(
+      'h2', {}, "Hello!"
+    ),
+    React.createElement(
+      'h3', {}, "React sample page."
+    ),
+    React.createElement(
+      'ul', {}, [
+        React.createElement(
+          'li', {}, "First item."
+        ),
+        React.createElement(
+          'li', {}, "Second item."
+        ),
+        React.createElement(
+          'li', {}, "Third item."
+        ),
+      ]
+    ),
+  ])
+
+ReactDOM.render(element, dom);
+
+
+
+---------------------------------
+
+
+▼リスト2-5
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>React</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <div id="root">wait...</div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト2-6
+<script>
+var dom = document.querySelector('#root')
+
+var element = React.createElement(
+  'div', {}, [
+    React.createElement(
+      'h2', {}, "Hello!"
+    ),
+    React.createElement(
+      'h4', {className:'alert alert-primary'}, 
+      "React sample page."
+    ),
+    React.createElement(
+      'ul', {className:'list-group'}, [
+        React.createElement(
+          'li', {className:'list-group-item'}, 
+          "First item."
+        ),
+        React.createElement(
+          'li', {className:'list-group-item'},
+          "Second item."
+        ),
+        React.createElement(
+          'li', {className:'list-group-item'},
+          "Third item."
+        ),
+      ]
+    ),
+  ])
+
+ReactDOM.render(element, dom)	
+</script>
+
+---------------------------------
+
+
+▼リスト2-7
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <div class="bg-primary text-white">primary</div>
+    <div class="bg-secondary text-white">secondary</div>
+    <div class="bg-success text-dark">success</div>
+    <div class="bg-warning text-dark">warning</div>
+  </div>
+</body>
+
+
+
+---------------------------------
+
+
+▼リスト2-8
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <div class="m-4 bg-warning">margin 3</div>
+    <div class="p-4 bg-warning">padding 3</div>
+  </div>
+</body>
+
+
+
+---------------------------------
+
+
+▼リスト2-9
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <form>
+      <div class="form-group">
+        <label for="id">account</label>
+        <input type="email" class="form-control" id="id">
+      </div>
+      <div class="form-group">
+        <label for="pass">password</label>
+        <input type="password" class="form-control" id="pass">
+      </div>
+    </form>
+  </div>
+</body>
+
+
+
+---------------------------------
+
+
+▼リスト2-10
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <form>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label class="form-check-label" for="check">チェックボックス</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="rb1" name="rb">
+        <label class="form-check-label" for="rb1">ラジオボタン1</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="rb2" name="rb">
+        <label class="form-check-label" for="rb2">ラジオボタン2</label>
+      </div>
+    </form>
+  </div>
+</body>
+
+
+
+---------------------------------
+
+
+▼リスト2-11
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <table class="table">
+      <thead>
+        <tr><th>ID</th><th>name</th></tr>
+      <thead>
+      <tbody>
+        <tr><td>1</td><td>YAMADA-Taro</td></tr>
+        <tr><td>2</td><td>TANAKA-Hanako</td></tr>
+        <tr><td>3</td><td>SUZUKI-Sacihko</td></tr>
+    </table>
+  </div>
+</body>
+
+
+
+---------------------------------
+
+
+▼リスト2-12
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+
+---------------------------------
+
+
+▼リスト2-13
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>
+  <div class="container mt-3">
+    <div id="root4">wait...</div>
+  </div>
+  <script type="text/babel">
+  let dom = document.querySelector('#root4')
+
+  let el = (
+    <div>
+      <h2>JSX sample</h2>
+      <p>This is sample message.</p>
+    </div>
+  )
+
+  ReactDOM.render(el, dom)
+  </script>
+</body>
+
+
+
+---------------------------------
+
+
+▼リスト2-14
+let el = (
+    <h2>JSX sample</h2>
+    <p>This is sample message.</p>
+)
+
+
+
+---------------------------------
+
+
+▼リスト2-15
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "新タイトル"
+let message = "新しいメッセージです。"
+
+let el = (
+  <div className="alert alert-primary">
+    <h3>{title}</h3>
+    <p>{message}</p>
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-16
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let message = "新しいメッセージです。"
+let link = "http://google.com"
+
+let el = (
+  <div className="alert alert-primary">
+    <h4>{message}</h4>
+    <h5><a href={link}>this is link!</a></h5>
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-17
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title="新タイトル"
+let message = "新しいメッセージです。"
+
+const msg_s = {
+  fontSize:"20pt",
+  color:"red",
+  border:"1px solid blue"
+}
+
+let el = (
+  <div className="alert alert-primary">
+    <h4>{title}</h4>
+    <p style={msg_s}>{message}</p>
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-18
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+
+const msg = {
+  fontSize:"20pt",
+  fontWeight: "bold",
+  color:"red",
+  border:"2px solid green"
+}
+
+let printMsg = function(msg, size, color){
+  const style = {
+    fontSize: size + "pt",
+    fontWeight:'700',
+    color: color,
+    border: "1px solid " + color
+  }
+  return <p style={style}>{msg}</p>
+}
+
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+    <div className="alert alert-secondary mt-3">
+      {printMsg('最初のメッセージ', 36, '#fff')}
+      {printMsg('次のメッセージです.', 24, '#aaa')}
+      {printMsg('最後のメッセージでした.', 12, '#666')}
+    </div>
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-19
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+let content = `※これが、trueのときに表示されるメッセージです。
+    ちゃんと表示されていますか？`
+
+let flg = true; // ☆
+
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+  {flg && 
+    <div className="alert alert-primary mt-3">
+      <p>{content}</p>
+    </div>
+  }
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-20
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+let content_true = `※これが、trueのときに表示されるメッセージです。
+    ちゃんと表示されていますか？`
+let content_false = `※これは、falseのときの表示です……。`
+
+let flg = true // ☆
+
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+  {flg ? 
+    <div className="alert alert-primary mt-3">
+      <p>{content_true}</p>
+    </div>
+  :
+    <div className="alert alert-secondary mt-3">
+      <p>{content_false}</p>
+    </div>
+  }
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-21
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+
+let data = [
+  <li className="list-group-item">One</li>,
+  <li className="list-group-item">Two</li>,
+  <li className="list-group-item">Three</li>
+]
+
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+    <ul className="list-group mt-4">
+      {data}
+    </ul>
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+ 
+---------------------------------
+
+
+▼リスト2-22
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "データを表示します。"
+
+let data = [
+  {name:'Taro', mail:'taro@yamada', age:45},
+  {name:'Hanako', mail:'hanako@flower', age:37},
+  {name:'Sachiko', mail:'sachiko@happy', age:29},
+  {name:'Jiro', mail:'jiro@change', age:18},
+  {name:'Kumi', mail:'kumi@class', age:56}
+]
+
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+    <table className="table table-striped mt-4">
+    <thead className="thead-dark">
+      <tr>
+        <th>name</th>
+        <th>mail</th>
+        <th>age</th>
+      </tr>
+    </thead>
+    <tbody>
+    {data.map((value) =>(
+      <tr>
+        <td>{value.name}</td>
+        <td>{value.mail}</td>
+        <td>{value.age}</td>
+      </tr>
+    ))}
+    </tbody>
+    </table>
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-23
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "データを表示します。"
+
+let data = {
+  url:'http://google.com',
+  title:'Google',
+  caption:'※これは、Googleの検索サイトです。'
+}
+
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+    {(()=> 
+      <div className="card mt-4">
+        <div className="card-header">
+          {data.title}
+        </div>
+        <div className="card-body">
+          {data.caption}
+        </div>
+        <div className="card-footer">
+          <a href={data.url}>※{data.title}に移動</a>
+        </div>
+      </div>
+    )()}
+  </div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-24
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+
+var counter = 0
+
+setInterval(() => {
+  counter++
+  let el = (
+    <div>
+      <h4>{title}</h4>
+      <h6>{message}</h6>
+      <h5 className="alert alert-primary">
+        count: {counter}.
+      </h5>
+    </div>
+  )
+  ReactDOM.render(el, dom)
+}, 1000)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-25
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+
+var counter = 0
+let el = (
+  <div>
+    <h4>{title}</h4>
+    <h6>{message}</h6>
+    <h5 className="alert alert-primary">
+      count: {counter}.
+    </h5>
+  </div>
+)
+
+setInterval(() => {
+  counter++
+  ReactDOM.render(el, dom)
+}, 1000)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-26
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "メッセージを表示します。"
+
+var counter = 0
+
+let doAction = (event)=>{
+  counter++
+  let el = (
+    <div>
+      <h4>{title}</h4>
+      <h6>{message}</h6>
+      <h5 className="alert alert-primary"
+          onClick={doAction}>
+        count: {counter}.
+      </h5>
+    </div>
+  )
+  ReactDOM.render(el, dom)
+}
+
+doAction()
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト2-27
+<script type="text/babel">
+let dom = document.querySelector('#root')
+
+let title = "React page."
+let message = "お名前をどうぞ。"
+let in_val = '';
+
+let doChange = (event)=>{
+  in_val = event.target.value
+  message = 'こんにちは, ' + in_val + 'さん!!'
+}
+
+let doAction = (event)=>{
+  let el = (
+    <div>
+      <h4>{title}</h4>
+      <h6>{message}</h6>
+      <div className="alert alert-primary">
+        <div className="form-group">
+          <label>Input:</label>
+          <input type="text" className="form-control"
+              id="input" onChange={doChange} />
+        </div>
+        <button onClick={doAction} 
+            className="btn btn-primary">
+          Click
+        </button>
+      </div>
+    </div>
+  )
+  ReactDOM.render(el, dom)
+}
+
+doAction()
+</script>
+
+
+
+---------------------------------
+■3章
+---------------------------------
+
+
+▼リスト3-1
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>React</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+  <h1 class="bg-primary text-white display-4">React</h1>  
+  <div class="container mt-4">
+    <div id="root">wait...</div>
+  </div>
+  <script type="text/babel">
+  let dom = document.querySelector('#root')
+  let message ="React component page."
+
+  // これが関数コンポーネント
+  function Welcome(props) {
+    return <div className="alert alert-primary">
+      <p className="h4">Hello React!!</p>
+    </div>
+  }
+
+  // 表示するJSX
+  let el = (
+    <div>
+      <h5 class="mb-4">{message}</h5>
+      <Welcome />
+    </div>
+  )
+  ReactDOM.render(el, dom)  
+  </script>
+</body>
+
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト3-2
+<script type="text/babel">
+let dom = document.querySelector('#root')
+let message ="React component page."
+
+// 関数コンポーネント
+function Welcome(props) {
+  return <div className={props.alert}>
+    <p className={props.fontSize}>Hello {props.name}!!</p>
+  </div>
+}
+
+// 表示するJSX
+let el = (
+  <div>
+    <h5 class="mb-4">{message}</h5>
+    <Welcome name="Taro" fontSize="h2" 
+        alert="alert alert-primary" />
+    <Welcome name="Hanako" fontSize="h5" 
+        alert="alert alert-dark" />
+  </div>
+)
+
+ReactDOM.render(el, dom)  
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト3-3
+<script type="text/babel">
+let dom = document.querySelector('#root')
+let message ="React component page."
+
+// 関数コンポーネント
+function Welcome(props) {
+  return (
+    <div className="alert alert-primary">
+      <Calc classes={props.classes} 
+          number={props.number} />
+    </div>
+  )
+}
+
+function Calc(props) {
+  let total = 0
+  for(let i = 1;i <= props.number;i++){
+    total += i
+  }
+  return <p className={props.classes}>
+      １から{props.number}までの
+      合計は、「{total}」です。</p>
+}
+
+// 表示するJSX
+let el = (
+  <div>
+    <h5 className="mb-4">{message}</h5>
+    <Welcome number="10" classes="h3" />
+    <Welcome number="100" classes="h5" />
+    <Calc number="50" classes="h4" />
+    <Calc number="500" classes="h6" />
+  </div>
+)
+
+ReactDOM.render(el, dom)  
+</script>
+ 
+
+---------------------------------
+
+
+▼リスト3-4
+<script type="text/babel">
+let dom = document.querySelector('#root')
+let message ="React component page."
+
+class Hello extends React.Component {
+  constructor(props){
+    super(props)
+  }
+
+  render(){
+    return <div className="alert alert-primary">
+      <p className="h4">Hello!!</p>
+    </div>
+  }
+}
+
+let el = (
+  <div>
+    <h5 className="mb-4">{message}</h5>
+    <Hello />
+  </div>
+)
+
+ReactDOM.render(el, dom)  
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト3-5
+<script type="text/babel">
+let dom = document.querySelector('#root')
+let message ="React component page."
+
+class Rect extends React.Component {
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  color = "white"
+  style = {}
+
+  constructor(props){
+    super(props)
+    this.x = props.x
+    this.y = props.y
+    this.width = props.w
+    this.height = props.h
+    this.color = props.c
+    this.style = {
+      backgroundColor:this.color,
+      position:"absolute",
+      left:this.x + "px",
+      top:this.y + "px",
+      width:this.width + "px",
+      height:this.height + "px"
+    }
+  }
+
+  render(){
+    return <div style={this.style}></div>
+  }
+}
+
+let el = (
+<div>
+  <h5>{message}</h5>
+  <div>
+    <Rect x="200" y="200" w="200" h="200" c="cyan" />
+    <Rect x="300" y="300" w="200" h="200" c="magenta" />
+  </div>
+</div>
+)
+
+ReactDOM.render(el, dom)
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト3-6
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リスト3-7
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"crossorigin="anonymous">
+
+
+
+---------------------------------
+
+
+▼リスト3-8
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+reportWebVitals();
+
+
+
+---------------------------------
+
+
+▼リスト3-9
+import './App.css';
+import MemoPage from './memo/MemoPage';
+
+function App() {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+
+
+---------------------------------
+
+
+▼リスト3-10
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  render(){
+    return  <div>
+    <h1 className="bg-primary text-white display-4">React</h1>  
+    <div className="container">
+      <p className="subtitle">This is sample component.</p>
+      <p>これはサンプルのコンポーネントです。</p>
+      <p>簡単なメッセージを表示します。</p>
+    </div>
+  </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-11
+h1 {
+  text-align:right;
+  padding: 0px 50px 10px 50px;
+  margin: 0px 0px 10px 0px;
+}
+
+.subtitle {
+  margin: 20px 0px;
+  color:#999;
+  font-weight: bolder;
+  font-size: 24pt;
+}
+
+p {
+  margin: 5px 0px;
+  color:#666;
+  font-size:16pt;
+}
+
+
+
+---------------------------------
+
+
+▼リスト3-12
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  
+  constructor(props){
+    super()
+    this.title = props.title
+    this.message = props.message
+  }
+
+  render(){
+    return  <div>
+    <h1 className="bg-primary text-white display-4">React</h1>  
+    <div className="container">
+      <p className="subtitle">{this.title}</p>
+      <p>{this.message}</p>
+    </div>
+  </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-13
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import App from './App'
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App title="App" 
+      message="This is App Component!" />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
+
+
+---------------------------------
+
+
+▼リスト3-14
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
+
+
+---------------------------------
+
+
+▼リスト3-15
+import React, { Component } from 'react'
+
+class Rect extends Component {
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  color = "white"
+  style = {}
+
+  constructor(props){
+    super(props)
+    this.x = props.x
+    this.y = props.y
+    this.width = props.w
+    this.height = props.h
+    this.color = props.c
+    this.radius = props.r
+    this.style = {
+        backgroundColor:this.color,
+        position:"absolute",
+        left:this.x + "px",
+        top:this.y + "px",
+        width:this.width + "px",
+        height:this.height + "px",
+        borderRadius:this.radius + "px"
+    }
+  }
+
+  render(){
+      return <div style={this.style}></div>
+  }
+}
+
+export default Rect
+
+
+
+---------------------------------
+
+
+▼リスト3-16
+import React, { Component } from 'react'
+import './App.css'
+import Rect from './Rect'
+
+class App extends Component {
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">draw rectangle.</p>
+        <Rect x="200" y="200" w="200" h="200" c="#6ff9" r="25" />
+        <Rect x="300" y="300" w="200" h="200" c="#f6f9" r="75"/>
+        <Rect x="400" y="400" w="200" h="200" c="#6669" r="100" />
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-17
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      msg:'Hello Component.',
+    }
+  }
+
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">Show message.</p>
+        <p className="alert alert-warning">{this.state.msg}</p>
+        <p className="alert alert-dark">{this.props.msg}</p>
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-18
+ReactDOM.render(
+  <React.StrictMode>
+    <App msg="Hello App." /> 
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
+
+
+---------------------------------
+
+
+▼リスト3-19
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      msg:'Hello',
+      count:0,
+    }
+    let timer = setInterval(()=>{
+      this.setState({
+        count: this.state.count + 1,
+        msg: "[ count: " + this.state.count + " ]"
+      })
+    }, 1000)
+  }
+
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">Count number.</p>
+        <p className="alert alert-warning">{this.state.msg}</p>
+        <p className="alert alert-dark">{this.props.msg}</p>
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-20
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      counter:0, 
+      msg:'count start!',
+    }
+    this.doAction = this.doAction.bind(this)
+  }
+
+  doAction(event){
+    this.setState({
+      counter: this.state.counter + 1,
+      msg: '*** count: ' + this.state.counter + ' ***'
+    })
+  }
+
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">Count number.</p>
+        <div className="alert alert-primary text-center">
+          <p className="h5 mb-4">{this.state.msg}</p>
+          <button className="btn btn-primary" 
+            onClick={this.doAction}>
+            Click</button>
+        </div>
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-21
+ReactDOM.render(
+  <React.StrictMode>
+    <App /> 
+  </React.StrictMode>,
+  document.getElementById('root')
+)
+
+
+
+---------------------------------
+
+
+▼リスト3-22
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      counter:0, 
+      msg:'count start!',
+      flg:true,
+    }
+    this.doAction = this.doAction.bind(this)
+  }
+
+  doAction(e){
+    this.setState({
+      counter: this.state.counter + 1,
+      msg: this.state.counter,
+      flg: !this.state.flg
+    })
+  }
+
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">Count number</p>
+        {this.state.flg ? 
+          <div className="alert alert-primary text-right">
+            <p className="h5">count: {this.state.msg}</p>
+          </div>
+        :
+          <div className="alert alert-warning  text-left">
+            <p className="h5">{this.state.msg}です。</p>
+          </div>
+        }
+        <div className="text-center">
+          <button className="btn btn-primary" 
+            onClick={this.doAction}>
+            Click</button>
+        </div>
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-23
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  data = []
+
+  area = {
+    width:"500px",
+    height:"500px",
+    border:"1px solid blue"
+  }
+
+  constructor(props){
+    super(props)
+    this.state = {
+      list:this.data
+    }
+    this.doAction = this.doAction.bind(this)
+  }
+
+  doAction(e){
+    let x = e.pageX
+    let y = e.pageY
+    this.data.push({x:x, y:y})
+    this.setState({
+      list:this.data
+    })
+  }
+
+  draw(d){
+    let s = {
+      position:"absolute",
+        left:(d.x - 25) + "px",
+        top:(d.y - 25) + "px",
+        width:"50px",
+        height:"50px",
+        backgroundColor:"#66f3",
+      }
+      return <div style={s}></div>
+  }
+  
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">draw rectangle.</p>
+        <div style={this.area} onClick={this.doAction}>
+          {this.data.map((value)=>this.draw(value))}
+        </div>
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-24
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  data = [
+    "This is list sample.",
+    "これはリストのサンプルです。",
+    "配列をリストに変換します。"
+  ]
+
+  constructor(props){
+    super(props)
+    this.state = {
+      list: this.data
+    }
+  }
+
+  render(){
+    return  <div>
+      <h1 className="bg-primary text-white display-4">React</h1>  
+      <div className="container">
+        <p className="subtitle">Show List.</p>
+        <List title="サンプル・リスト" data={this.data} />
+      </div>
+    </div>
+  }
+}
+
+class List extends Component {
+  number = 1
+
+  render(){
+    let data = this.props.data;
+     return (
+      <div>
+       <p className="h5 text-center">{this.props.title}</p>
+        <ul className="list-group">
+          {data.map((item, key) =>
+            <li className="list-group-item" key={key}>
+              <Item number={key + 1} value={item} />
+            </li>
+          )}
+        </ul>
+      </div>
+    )
+  }
+}
+
+class Item extends Component {
+  itm = {
+    fontSize:"16pt",
+    color:"#00f",
+    textDecoration: 'underline',
+    textDecorationColor: '#ddf'
+  }
+
+  num = {
+    fontWeight:"bold",
+    color:"red"
+  }
+
+  render(){
+    return (
+        <p style={this.itm}>
+          <span style={this.num}>
+            [{this.props.number}]&nbsp;
+          </span>
+          {this.props.value}
+        </p>
+    )
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-25
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  input = ''
+
+  constructor(props){
+    super(props)
+  }
+
+  render(){
+    return <div>
+      <h1 className="bg-primary text-white display-4">React</h1>
+      <div className="container">
+        <Message title="Children!">
+          これはコンポーネント内のコンテンツです。
+          マルでテキストを分割し、リストにして表示します。
+          改行は必要ありません。
+        </Message>
+      </div>
+    </div>
+  }
+}
+
+class Message extends Component {
+  li = {
+    fontSize:"14pt",
+    fontWeight: "bold",
+    color:"#090",
+  }
+
+  render(){
+    let content = this.props.children
+    let arr = content.split('。')
+    let arr2 = [];
+    for(let i = 0;i < arr.length;i++){
+      if (arr[i].trim() != ''){
+        arr2.push(arr[i]);
+      }
+    }
+    let list = arr2.map( (value,key)=>(
+      <li className="list-group-item" style={this.li} 
+          key={key}>{key + 1}. {value} .</li>)
+    )
+    return <div>
+      <h2>{this.props.title}</h2>
+      <ol className="list-group">{list}</ol>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-26
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  input = ''
+
+  constructor(props){
+    super(props)
+    this.state = {
+      title: 'input form',
+      message:'type your name.'
+    }
+    this.doChange = this.doChange.bind(this)
+    this.doSubmit = this.doSubmit.bind(this)
+  }
+
+  doChange(event) {
+    this.input = event.target.value;
+  }
+
+  doSubmit(event) {
+    this.setState({
+      title: 'send form',
+      message: 'Hello, ' + this.input + '!!'
+    })
+    event.preventDefault()
+  }
+
+  render(){
+    return <div>
+      <h1 className="bg-primary text-white display-4">React</h1>
+      <div className="container">
+        <h4>{this.state.title}</h4>
+        <p className="card h5 p-3">{this.state.message}</p>
+        <div className="alert alert-primary mt-3">
+          <form onSubmit={this.doSubmit}>
+            <div className="form-group">
+              <label>Message:</label>
+              <input type="text" className="form-control" 
+                  onChange={this.doChange} />
+            </div>
+            <input type="submit" className="btn btn-primary" 
+                value="Click" />
+          </form>
+        </div>
+      </div>
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-27
+<input type="text" className="form-control" 
+    onChange={this.doChange} 
+    required pattern="[A-Za-z _,.]+" />
+
+
+
+---------------------------------
+
+
+▼リスト3-28
+input:invalid {
+  border: 5px dashed red;
+}
+
+input:valid {
+  border: 1px solid blue;
+}
+
+
+
+---------------------------------
+
+
+▼リスト3-29
+import React, { Component } from 'react'
+import './App.css'
+
+class App extends Component {
+  input = ''
+
+  constructor(props){
+    super(props)
+    this.state = {
+      title: 'input form',
+      message:'type your name.',
+      max: 10, //☆
+    }
+    this.doCheck = this.doCheck.bind(this)
+  }
+
+  doCheck(event) {
+    alert(event.target.value + 
+      "は長すぎます。(最大" + this.state.max + "文字)")
+  }
+
+  render(){
+    return <div>
+      <h1 className="bg-primary text-white display-4">React</h1>
+      <div className="container">
+        <h4>{this.state.title}</h4>
+        <Message maxlength={this.state.max} onCheck={this.doCheck} />
+      </div>
+    </div>
+  }
+}
+
+class Message extends Component {
+  li = {
+    fontSize:"14pt",
+    fontWeight: "bold",
+    color:"#090",
+  }
+
+  constructor(props){
+    super(props)
+    this.doChange = this.doChange.bind(this)
+  }
+
+  doChange(e){
+    if (e.target.value.length > this.props.maxlength){
+      this.props.onCheck(e)
+      e.target.value = 
+        e.target.value.substr(0, this.props.maxlength)
+    }
+  }
+
+  render(){
+    return <div className="form-group">
+      <label>input:</label>
+      <input type="text" className="form-control"
+          onChange={this.doChange} />
+    </div>
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-30
+import React, { Component } from 'react'
+import './App.css'
+
+let data = {title:'React-Context', 
+  message:'this is sample message.'}
+
+const SampleContext = React.createContext(data)
+
+class App extends Component {
+  render(){
+    return <div>
+      <h1 className="bg-primary text-white display-4">React</h1>
+      <div className="container">
+      <Title />
+      <Message />
+      </div>
+    </div>
+  }
+}
+
+class Title extends Component {
+  static contextType = SampleContext
+
+  render(){
+    return (
+      <div className="card p-2 my-3">
+        <h2>{this.context.title}</h2>
+      </div>
+    )
+  }
+}
+
+class Message extends Component {
+  static contextType = SampleContext
+
+  render(){
+    return (
+      <div className="alert alert-primary">
+        <p>{this.context.message}</p>
+      </div>
+    )
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-31
+import React, { Component } from 'react'
+import './App.css'
+
+let data = {title:'React-Context', 
+  message:'this is sample message.'}
+
+const SampleContext = React.createContext(data)
+
+class App extends Component {
+  newdata = {title:'新しいタイトル', 
+    message:'これは新しいメッセージです。'}
+
+    render(){
+    return <div>
+      <h1 className="bg-primary text-white display-4">React</h1>
+      <div className="container">
+      <Title />
+        <Message />
+        <hr />
+        <SampleContext.Provider value={this.newdata}>
+          <Title />
+          <Message />
+        </SampleContext.Provider>
+        <hr />
+        <Title />
+        <Message />
+      </div>
+    </div>
+  }
+}
+
+class Title extends Component {……修正なし……}
+
+class Message extends Component {……修正なし……}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト3-32
+import React, { Component } from 'react'
+import './App.css'
+
+let theme = {
+  light:{
+    styles: {
+      backgroundColor:"#f0f9ff",
+      color:"#00f",
+    },
+    head: "bg-primary text-white display-4 mb-4",
+    alert: "alert alert-primary my-3",
+    text: "text-primary m-3",
+    foot: "py-4",
+  },
+  dark:{
+    styles: {
+      backgroundColor:"#336",
+      color:"#eef",
+    },
+    head: "bg-secondary text-white display-4 mb-4",
+    alert: "alert alert-dark my-3",
+    text: "text-light m-3",
+    foot: "py-4",
+  }
+}
+
+const ThemeContext = React.createContext(theme.light) //☆
+
+class App extends Component {
+  static contextType = ThemeContext
+
+    render(){
+    return <div style={this.context.styles}>
+      <h1 className={this.context.head}>React</h1>
+      <div className="container">
+        <Title value="Content page" />
+        <Message value="This is Content sample." />
+        <Message value="※これはテーマのサンプルです。" />
+        <div className={this.context.foot}></div>
+      </div>
+    </div>
+  }
+}
+
+class Title extends Component {
+  static contextType = ThemeContext
+
+  render(){
+    return (
+      <div className={this.context.alert}>
+        <h2 style={this.context.style}>{this.props.value}</h2>
+      </div>
+    )
+  }
+}
+
+class Message extends Component {
+  static contextType = ThemeContext
+
+  render(){
+    return (
+      <div style={this.context.style}>
+        <p className={this.context.text}>{this.props.value}</p>
+      </div>
+    )
+  }
+}
+
+export default App
+
+
+
+---------------------------------
+■4章
+---------------------------------
+
+
+▼リスト4-1
+import React, { useState } from 'react'
+import './App.css'
+
+function App() {
+  const [message] = useState("Welcome to Hooks!")
+
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <div className="alert alert-primary text-center">
+          <p className="h5">{message}.</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-2
+import React, { useState } from 'react'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+  const clickFunc = () => {
+    setCount(count + 1)
+  }
+  
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <div className="alert alert-primary text-center">
+          <p className="h5 mb-3">click: {count} times!</p>
+          <div><button className="btn btn-primary"
+              onClick={clickFunc}>
+            Click me
+          </button></div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-3
+import React, { useState } from 'react'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+  const [flag, setFlag] = useState(false)
+  const clickFunc = () => {
+    setCount(count + 1)
+  }
+  const changeFlag = (e) => {
+    setFlag(e.target.checked)
+  }
+  
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        {flag ?
+        <div className="alert alert-primary text-center">
+          <p className="h5 mb-3">click: {count} times!</p>
+          <div><button className="btn btn-primary"
+              onClick={clickFunc}>
+            Click me
+          </button></div>
+        </div>
+        :
+        <div className="card p-3 border-primary text-center">
+          <p className="h5 mb-3 text-left text-primary">
+            click: {count} times!</p>
+          <div><button className="btn btn-primary"
+              onClick={clickFunc}>
+            Click me
+          </button></div>
+        </div>
+        }
+        <div className="form-group h6 text-center pt-3">
+          <input type="checkbox" className="form-check-input"
+              id="check1" onChange={changeFlag} />
+          <label className="form-check-label" htmlFor="check1">
+            Change form style.
+          </label>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-4
+import React, { useState } from 'react'
+import './App.css'
+
+function AlertMessage() {
+  return <div className="alert alert-primary h5 text-primary">
+    This is Alert message!
+  </div>
+}
+
+function CardMessage() {
+  return <div className="card p-3 h5 border-primary text-center">
+    This is Card message!
+  </div>
+}
+
+function App() {
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage />
+        <CardMessage />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-5
+import React, { useState } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  return <div className="alert alert-primary h5 text-primary">
+    {props.message}
+  </div>
+}
+
+function CardMessage(props) {
+  return <div className="card p-3 h5 border-primary text-center">
+    {props.message}
+  </div>
+}
+
+function App() {
+  const [msg] = useState("This is sample messsage!")
+  
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage message={msg} />
+        <CardMessage message={msg} />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-6
+import React, { useState } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  return <div className="alert alert-primary h5 text-primary">
+    {props.message}
+  </div>
+}
+
+function CardMessage(props) {
+  return <div className="card p-3 h5 border-primary text-center">
+    {props.message}
+  </div>
+}
+
+function App() {
+  const [msg, setMsg] = useState("This is sample messsage!")
+
+  const doAction = ()=>{
+    let res = window.prompt('type your name:')
+    setMsg("Hello, " + res + "!!")
+  }
+  
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage message={msg} />
+        <CardMessage message={msg} />
+        <div className="text-center">
+          <button onClick={doAction} className="btn btn-primary">
+            Click me!
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-7
+import React, { useState } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  const data = ["Hello!", "Welcome...", "Good-bye?"]
+
+  const actionAlert = ()=> {
+    const re = data[Math.floor(Math.random() * data.length)]
+    props.setAlert('message: "' + re + '".')
+  }
+
+  return <div className="alert alert-primary h5 text-primary">
+    <h5>{props.alert}</h5>
+    <button onClick={actionAlert} className="btn btn-primary">
+      Click me!
+    </button>
+  </div>
+}
+
+function CardMessage(props) {
+  const [count, setCount] = useState(0)
+
+  const actionCard = () => {
+    setCount(count + 1)
+    props.setCard("card counter: " + count + " count.")
+  }
+
+  return <div className="card p-3 border-dark text-center">
+    <h5>{props.card}</h5>
+    <button onClick={actionCard} className="btn btn-secondary">
+      Click me!
+    </button>
+  </div>
+}
+
+function App() {
+  const [alert, setAlert] = useState("This is alert messsage!")
+  const [card, setCard] = useState("This is card messsage!")
+
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage alert={alert} setAlert={setAlert} />
+        <CardMessage card={card} setCard={setCard} />
+        <hr />
+        <div className="text-right">
+          <p>{alert}</p>
+          <p>{card}</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-8
+import React, { useState } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  const data = props.data
+  const msg = JSON.stringify(data)
+
+  return <div className="alert alert-primary h5 text-primary">
+    <h5>{msg}</h5>
+    <hr />
+    <table className="table h6">
+      <tbody>
+      <tr><th>Name</th><td>{data.name}</td></tr>
+      <tr><th>Mail</th><td>{data.mail}</td></tr>
+      <tr><th>Age</th><td>{data.age}</td></tr>
+      </tbody>
+    </table>
+  </div>
+}
+
+function App() {
+  const [name, setName] = useState("")
+  const [mail, setMail] = useState("")
+  const [age, setAge] = useState(0)
+  const [form, setForm] = useState({
+    name:'no name', mail:'no mail', age:0
+  })
+
+  const doChangeName = (event)=> {
+    setName(event.target.value)
+  }
+  const doChangeMail = (event)=> {
+    setMail(event.target.value)
+  }
+  const doChangeAge = (event)=> {
+    setAge(event.target.value)
+  }
+
+  const doSubmit = (event) => {
+    setForm({name:name, mail:mail, age:age})
+    event.preventDefault()
+  }
+
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage data={form} setData={setForm} />
+        <form onSubmit={doSubmit}>
+          <div className="form-group">
+            <label>Name:</label>
+            <input type="text" className="form-control" 
+                onChange={doChangeName} />
+          </div>
+          <div className="form-group">
+            <label>Mail:</label>
+            <input type="text" className="form-control" 
+                onChange={doChangeMail} />
+          </div>
+          <div className="form-group">
+            <label>Age:</label>
+            <input type="number" className="form-control" 
+                onChange={doChangeAge} />
+          </div>
+          <input type="submit" className="btn btn-primary" 
+              value="Click" />
+          </form>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-9
+import React, { useState, useEffect } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  return <div className="alert alert-primary h5 text-primary">
+    <h5>{props.msg}</h5>
+  </div>
+}
+
+function App() {
+  const [val, setVal] = useState(0)
+  const [msg, setMsg] = useState('set a number...')
+
+  const doChange = (event) => {
+    setVal(event.target.value)
+  }
+
+  useEffect(() => {
+    let total = 0
+    for (let i = 0;i <= val;i++) {
+      total += i
+    }
+    setMsg("total: " + total + ".")
+  })
+
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage msg={msg} />
+        <div className="form-group">
+          <label>Input:</label>
+          <input type="number" className="form-control" 
+              onChange={doChange} />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-10
+import React, { useState, useEffect } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  return <div className="alert alert-primary h5 text-primary">
+    <h5>{props.msg}</h5>
+  </div>
+}
+
+function App() {
+  const [val, setVal] = useState(1000)
+  const [tax1, setTax1] = useState(0)
+  const [tax2, setTax2] = useState(0)
+  const [msg, setMsg] = useState(<p>set a price...</p>)
+
+  const doChange = (event) => {
+    setVal(event.target.value)
+  }
+
+  const doAction = () => {
+    let res = <div>
+      <p>軽減税率(8%) ： {tax1} 円</p>
+      <p>通常税率(10%)： {tax2} 円</p>
+    </div>
+    setMsg(res)
+  }
+
+  useEffect(() => {
+    setTax1(Math.floor(val * 1.08))
+  })
+
+  useEffect(() => {
+    setTax2(Math.floor(val * 1.1))
+  })
+  
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage msg={msg} />
+        <div className="form-group">
+          <label>Input:</label>
+          <input type="number" className="form-control" 
+              onChange={doChange} />
+        </div>
+        <button className="btn btn-primary" 
+            onClick={doAction}>Calc</button>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-11
+import React, { useState, useEffect } from 'react'
+import './App.css'
+
+function AlertMessage(props) {
+  return <div className="alert alert-primary h5 text-primary">
+    <h5>{props.msg}</h5>
+  </div>
+}
+
+function App() {
+  const [val, setVal] = useState(1000)
+  const [tax1, setTax1] = useState(0)
+  const [tax2, setTax2] = useState(0)
+  const [msg, setMsg] = useState(<p>set a price...</p>)
+
+  const doChange = (event) => {
+    setVal(event.target.value)
+  }
+
+  // ☆新たに追加したフック
+  useEffect(() => {
+    let res = <div>
+      <p>軽減税率(8%) ： {tax1} 円</p>
+      <p>通常税率(10%)： {tax2} 円</p>
+    </div>
+    setMsg(res)
+  })
+
+  useEffect(() => {
+    setTax1(Math.floor(val * 1.08))
+  })
+
+  useEffect(() => {
+    setTax2(Math.floor(val * 1.1))
+  })
+  
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage msg={msg} />
+        <div className="form-group">
+          <label>Input:</label>
+          <input type="number" className="form-control" 
+              onChange={doChange} />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-12
+useEffect(() => {
+  let res = <div>
+    <p>軽減税率(8%) ： {tax1} 円</p>
+    <p>通常税率(10%)： {tax2} 円</p>
+  </div>
+  setMsg(res)
+}, [tax1, tax2])
+
+
+
+---------------------------------
+
+
+▼リスト4-13
+function useCounter() {
+  const [num, setNum] = useState(0)
+
+  const count = ()=>{
+    setNum(num + 1)
+  }
+  
+  return [num, count]
+}
+
+
+
+---------------------------------
+
+
+▼リスト4-14
+import React, { useState, useEffect } from 'react'
+import './App.css'
+
+function useCounter() {
+  const [num, setNum] = useState(0)
+
+  const count = ()=>{
+    setNum(num + 1)
+  }
+  
+  return [num, count]
+}
+
+function AlertMessage(props) {
+  const [counter, plus] = useCounter()
+
+  return <div className="alert alert-primary h5 text-center">
+    <h4>count: {counter} .</h4>
+    <button onClick={plus} className="btn btn-primary">
+        count</button>
+  </div>
+}
+
+function App() {
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-15
+const useTax = (t1, t2)=> {
+  const [price, setPrice] = useState(1000)
+  const [tx1] = useState(t1)
+  const [tx2] = useState(t2)
+
+  const tax = ()=> { 
+    return Math.floor(price * (1.0 + tx1 / 100))
+  }
+  const reduced = ()=> { 
+    return Math.floor(price * (1.0 + tx2 / 100))
+  }
+
+  return [price, tax, reduced, setPrice]
+}
+
+
+
+---------------------------------
+
+
+▼リスト4-16
+import React, { useState, useEffect } from 'react'
+import './App.css'
+
+const useTax = (t1, t2)=> {
+  const [price, setPrice] = useState(1000)
+  const [tx1] = useState(t1)
+  const [tx2] = useState(t2)
+
+  const tax = ()=> { 
+    return Math.floor(price * (1.0 + tx1 / 100))
+  }
+  const reduced = ()=> { 
+    return Math.floor(price * (1.0 + tx2 / 100))
+  }
+
+  return [price, tax, reduced, setPrice]
+}
+
+function AlertMessage(props) {
+  const [price, tax, reduced, setPrice] = useTax(10, 8)
+  
+  const DoChange = (e)=> {
+    let p = e.target.value
+    setPrice(p)
+  }
+
+  return <div className="alert alert-primary h5">
+    <p className="h5">通常税率: {tax()} 円.</p>
+    <p className="h5">軽減税率: {reduced()} 円.</p>
+    <div className="form-group">
+      <label className="form-group-label">Price:</label>
+      <input type="number" className="form-control"
+        onChange={DoChange} value={price} />
+    </div>
+  </div>
+}
+
+function App() {
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-17
+function useCalc(num=0, func = (a)=>{return a}) {
+  const [msg, setMsg] = useState(null)
+
+  const setValue = (p)=>{
+    let res = func(p)
+    setMsg(<p className="h5">※ {p} の結果は、{res} です。</p>)
+  }
+  
+  return [msg, setValue]
+}
+
+
+
+---------------------------------
+
+
+▼リスト4-18
+import React, { useState, useEffect } from 'react'
+import './App.css'
+
+// 合計計算の関数
+const total = (a)=> {
+  let re = 0
+  for(let i = 0;i <= a;i++) {
+    re += i
+  }
+  return re
+}
+// 消費税計算の関数
+const tax = (a)=> {
+  return Math.floor(a * 1.1)
+}
+
+// 数値を計算しメッセージを返す独自フック関数
+function useCalc(num=0, func = (a)=>{return a}) {
+  const [msg, setMsg] = useState(null)
+
+  const setValue = (p)=>{
+    let res = func(p)
+    setMsg(<p className="h5">※ {p} の結果は、{res} です。</p>)
+  }
+  
+  return [msg, setValue]
+}
+
+// デフォルトのコンポーネント
+function PlainMessage(props) {
+  const [msg, setCalc] = useCalc()
+
+  const onChange = (e)=> {
+    setCalc(e.target.value)
+  }
+
+  return <div className="p-3 h5">
+    <h5>{msg}</h5>
+    <input type="number" onChange={onChange} 
+        className="form-control" />
+  </div>
+}
+
+// 合計計算コンポーネント
+function AlertMessage(props) {
+  const [msg, setCalc] = useCalc(0, total)
+
+  const onChange = (e)=> {
+    setCalc(e.target.value)
+  }
+
+  return <div className="alert alert-primary h5 text-primary">
+    <h5>{msg}</h5>
+    <input type="number" onChange={onChange}
+        min="0" max="10000" className="form-control" />
+  </div>
+}
+
+// 消費税計算コンポーネント
+function CardMessage(props) {
+  const [msg, setCalc] = useCalc(0, tax)
+
+  const onChange = (e)=> {
+    setCalc(e.target.value)
+  }
+
+  return <div className="card p-3 h5 border-primary">
+    <h5>{msg}</h5>
+    <input type="range" onChange={onChange} 
+        min="0" max="10000" step="100" className="form-control" />
+  </div>
+}
+
+// ベース・コンポーネント
+function App() {
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <PlainMessage />
+        <AlertMessage />
+        <CardMessage />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-19
+import React, { useState } from 'react'
+
+function usePersist(ky, initVal) {
+  const key = "hooks:" + ky 
+  const value = () => {
+    try {
+      const item = window.localStorage.getItem(key)
+      return item ? JSON.parse(item) : initVal
+    } catch (err) {
+      console.log(err)
+      return initVal;
+    }
+  }
+  const setValue = (val) => {
+    try {
+      setSavedValue(val)
+      window.localStorage.setItem(key, JSON.stringify(val))
+    } catch (err) {
+      console.log(err)
+    }
+  }
+  const [savedValue, setSavedValue] = useState(value)
+
+  return [savedValue, setValue]
+}
+
+export default usePersist
+
+
+
+---------------------------------
+
+
+▼リスト4-20
+import React, { useState, useEffect } from 'react'
+import './App.css'
+import  usePersist  from './Persist'
+
+function AlertMessage(props) {
+  const [name, setName] = useState("")
+  const [mail, setMail] = useState("")
+  const [age, setAge] = useState(0)
+  const [mydata, setMydata] = usePersist("mydata", null)
+
+  const onChangeName = (e)=> {
+    setName(e.target.value)
+  }
+  const onChangeMail = (e)=> {
+    setMail(e.target.value)
+  }
+  const onChangeAge = (e)=> {
+    setAge(e.target.value)
+  }
+  const onAction = (e)=> {
+    const data = {
+      name: name,
+      mail: mail,
+      age: age
+    }
+    setMydata(data)
+  }
+
+  return <div className="alert alert-primary h5 text-primary">
+    <h5 className="mb-4">{JSON.stringify(mydata)}</h5>
+    <div className="form-group">
+      <label className="h6">Name</label>
+      <input type="text" onChange={onChangeName}
+        className="form-control" />
+    </div>
+    <div className="form-group">
+      <label className="h6">Mail</label>
+      <input type="mail" onChange={onChangeMail}
+        className="form-control" />
+    </div>
+    <div className="form-group">
+      <label className="h6">Age</label>
+      <input type="number" onChange={onChangeAge}
+        className="form-control" />
+    </div>
+    <button onClick={onAction} 
+      className="btn btn-primary">
+      Save it!
+    </button>
+  </div>
+}
+
+// ベース・コンポーネント
+function App() {
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Hooks sample</h4>
+        <AlertMessage />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-21――App.js
+import './App.css'
+import MemoPage from './memo/MemoPage'
+
+function App() {
+  return (
+    <div>
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">Memo.</h4>
+        <MemoPage />
+      </div>
+    </div>
+  )
+}
+
+export default App
+
+
+
+---------------------------------
+
+
+▼リスト4-22
+import  usePersist  from '../Persist'
+import Memo from './Memo';
+import AddForm from './AddForm';
+import FindForm from './FindForm';
+import DelForm from './DelForm';
+
+function MemoPage() {
+  const [mode, setMode] = usePersist('mode', 'default')
+
+  return (
+    <div>
+      <h5 className="my-3">mode: {mode}</h5>
+      <div className="alert alert-primary pb-0">
+        <AddForm />
+        <FindForm />
+        <DelForm />
+      </div>
+      <Memo />
+    </div>
+  )
+}
+
+export default MemoPage
+
+
+
+---------------------------------
+
+
+▼リスト4-23
+import React, { useState, useEffect } from 'react'
+import  usePersist  from '../Persist'
+
+import Item from './Item'
+
+function Memo(props) {
+  const [memo, setMemo] = usePersist("memo", [])
+  const [fmemo, setFMemo] = usePersist("findMemo", [])
+  const [mode, setMode] = usePersist('mode', 'default')
+  
+  let data = []
+
+  switch (mode){
+    case 'default':
+      data = memo.map((value,key)=>(
+        <Item key={value.message} value={value} index={key + 1} />
+      ))
+      setMode('deafult')
+      break
+    
+    case 'find':
+      data = fmemo.map((value,key)=>(
+        <Item key={value.message} value={value} index={key + 1}/>
+      ))
+      break
+
+    default:
+      data = memo.map((value,key)=>(
+        <Item key={value.message} value={value} index={key + 1} />
+      ))
+  }
+  
+  return (
+    <table className="table mt-4">
+      <tbody>{data}</tbody>
+    </table>
+  )
+}
+
+export default Memo
+
+
+
+---------------------------------
+
+
+▼リスト4-24
+import React, { useState, useEffect } from 'react'
+
+function Item (props) {
+  const th = {
+    width: "100px"
+  }
+  const td = {
+    textAlign: "right",
+    width: "150px"
+  }
+  let d = new Date(Date.parse(props.value.created))
+  let f = d.getMonth() + '/' + d.getDate() + ' '
+      + d.getHours() + ':' + d.getMinutes()
+  
+  return (
+  <tr><th style={th}>No, {props.index}</th>
+    <td>{props.value.message}</td>
+    <td style={td}>{f}</td>
+  </tr>
+  )
+}
+
+export default Item
+
+
+
+---------------------------------
+
+
+▼リスト4-25
+import React, { useState, useEffect } from 'react'
+import  usePersist  from '../Persist'
+
+function AddForm (props) {
+  const [memo, setMemo] = usePersist("memo", [])
+  const [message, setMessage] = useState('')
+
+  const doChange = (e)=> {
+    setMessage(e.target.value)
+  }
+
+  const doAction = (e)=> {
+    const data = {
+      message: message,
+      created: new Date()
+    }
+    memo.unshift(data)
+    setMemo(memo)
+    setMessage('')
+  }
+
+  return (
+    <form onSubmit={doAction} action="">
+    <div className="form-group row">
+      <input type="text" className="form-control-sm col" 
+        onChange={doChange} value={message} required />
+      <input type="submit" value="Add" 
+        className="btn btn-primary btn-sm col-2" />
+    </div>
+    </form>
+  )
+}
+
+export default AddForm
+
+
+
+---------------------------------
+
+
+▼リスト4-26
+import React, { useState, useEffect, memo } from 'react'
+import  usePersist  from '../Persist'
+
+function DelForm (props) {
+  const [memo, setMemo] = usePersist("memo", [])
+  const [num, setNum] = useState(0)
+
+  const doChange = (e)=> {
+    setNum(e.target.value)
+  }
+
+  const doAction = (e)=> {
+    let res = memo.filter((item, key)=> {
+      return key != num
+    })
+    setMemo(res)
+    setNum(0)
+  }
+
+  let items = memo.map((value,key)=>(
+    <option key={key} value={key}>
+      {value.message.substring(0,10)}
+    </option>      
+  ))
+
+  return (
+    <form onSubmit={doAction}>
+    <div className="form-group row">
+    <select onChange={doChange} className="form-control-sm col"
+      defaultValue="-1" >
+      {items} 
+    </select>
+    <input type="submit" value="Del" 
+      className="btn btn-primary btn-sm col-2" />
+    </div>
+    </form>
+  )
+}
+
+export default DelForm
+
+
+
+---------------------------------
+
+
+▼リスト4-27
+import React, { useState, useEffect, memo } from 'react'
+import  usePersist  from '../Persist'
+
+function FindForm (props) {
+  const [memo, setMemo] = usePersist("memo", [])
+  const [fmemo, setFMemo] = usePersist("findMemo", [])
+  const [message, setMessage] = useState('')
+  const [mode, setMode] = usePersist('mode', 'find')
+
+  const doChange = (e)=> {
+    setMessage(e.target.value)
+  }
+
+  const doAction = (e)=> {
+    if (message == '') {
+      setMode('default')
+      return
+    }
+    let res = memo.filter((item, key)=> {
+      return item.message.includes(message)
+    })
+    setFMemo(res)
+    setMode('find')
+    setMessage('')
+  }
+
+  return (
+    <form onSubmit={doAction}>
+    <div className="form-group row">
+      <input type="text" onChange={doChange}
+        value={message} className="form-control-sm col" />
+      <input type="submit" value="Find" 
+        className="btn btn-primary btn-sm col-2" />
+      </div>
+    </form>
+  )
+}
+
+export default FindForm
+
+
+
+---------------------------------
+■5章
+---------------------------------
+
+
+▼リスト5-1
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <Head>
+        ……中略……
+      </Head>
+
+      <main className={styles.main}>
+        ……中略……
+      </main>
+
+      <footer className={styles.footer}>
+        ……中略……
+      </footer>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-2
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+
+export default function Home() {
+  let title ="Next.js page"
+  let message ="React Next.js sample page."
+
+  return (
+    <div>
+      <Head>
+        <title>{title}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+          crossOrigin="anonymous"></link>
+      </Head>
+
+      <h1 className="bg-primary text-white display-4 ">React</h1>
+      <div className="container">
+        <h4 className="my-3">{title}</h4>
+        <div className="alert alert-primary text-center">
+          <p className="h5">{message}.</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-3
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+
+export default function Home() {
+  let title ="Next.js page"
+  let message ="React Next.js sample page."
+
+  const h1 = {
+    textAlign:'right',
+    padding:'5px 15px'
+  }
+  
+  const p = {
+    textAlign:'left',
+    margin:'0px 5px',
+    color:'#669',
+    fontSize:'18pt'
+  }
+
+  const subtitle = {
+    textAlign:'center',
+    margin:'0px 5px',
+    color:'#99d',
+    fontSize:'24pt',
+    fontWeight: 'bold'
+  }
+
+  return (
+    <div>
+      <Head>
+        <title>{title}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+          crossOrigin="anonymous"></link>
+      </Head>
+
+      <h1 className="bg-primary text-white display-4 "
+        style={h1}>React</h1>
+      <div className="container">
+        <p className="my-3" style={subtitle} id="subtitle">{title}</p>
+        <div className="alert alert-primary text-center">
+          <p className="h5" style={p}>{message}.</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-4
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+
+export default function Home() {
+  let title ="Next.js page"
+  let message ="React Next.js sample page."
+
+  return (
+    <div>
+      <Head>
+        <title>{title}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+          crossOrigin="anonymous"></link>
+      </Head>
+      <style jsx>{`
+        h1 {
+          text-align: center;
+        }
+
+        h2 {
+          text-align: center;
+          margin: 0px 5px;
+          color: #aad;
+          font-size: 36pt;
+          font-weight: bold;
+        }
+
+        p {
+          text-align: left;
+          margin: 0px 5px;
+          color: blue;
+          font-size: 18pt;
+        }
+      `}</style>
+
+      <h1 className="bg-primary text-white display-4 "
+        >React</h1>
+      <div className="container">
+        <h2 className="my-3 subtitle">{title}</h2>
+        <div className="alert alert-primary text-center">
+          <p className="h5">{message}.</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-5
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+
+export default function Header(props) {
+  return (
+    <Head>
+      <title>{props.title}</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        crossorigin="anonymous"></link>
+    </Head>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-6
+import Header from './header'
+
+export default function Home() {
+  let title ="Next.js Index"
+  let message ="React Next.js sample page."
+
+  return (
+    <div>
+      <Header title={title} />
+      <h1 className="bg-primary px-3 text-white display-4 text-right">
+          React</h1>
+      <div className="container">
+        <h3 className="my-3 text-primary text-center">
+          {title}</h3>
+        <div className="alert alert-primary text-left">
+          <p className="h5">{message}.</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-7――index.js
+import Header from './header'
+import Link from 'next/link'
+
+export default function Home() {
+  const title = "Index"
+
+  return (
+    <div>
+      <Header title={title} />
+      <h1 className="bg-primary px-3 text-white display-4">
+          React</h1>
+      <div className="container">
+        <h3 className="my-3 text-primary text-center">
+          {title}</h3>
+        <div className="card p-3 text-center">
+          <p>
+            これは、ページ移動のサンプルです。</p>
+            <Link href="/other">
+              <a>Go to Other page &gt;&gt;</a>
+            </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-8――other.js
+import Header from './header'
+import Link from 'next/link'
+
+export default function Other() {
+  const title = "Other"
+
+  return (
+    <div>
+      <Header title={title} />
+      <h1 className="bg-primary px-3 text-white display-4">
+          React</h1>
+      <div className="container">
+        <h3 className="my-3 text-primary text-center">
+          {title}</h3>
+        <div className="card p-3">
+          <p>
+            これは、もう１つのページの表示です。</p>
+            <Link href="/">
+              <a>&lt;&lt; Back to Index page</a>
+            </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-9
+import Head from 'next/head'
+import styles from '../styles/Home.module.css'
+import Header from './Header'
+import Footer from './Footer'
+
+export default function Layout(props) {
+  return (
+    <div>
+      <Head>
+        <title>{props.title}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+          crossorigin="anonymous"></link>
+      </Head>
+      <Header header={props.header} />
+      <div className="container">
+        <h3 className="my-3 text-primary text-center">
+          {props.title}</h3>
+          {props.children}
+      </div>
+      <Footer footer="copyright SYODA-Tuyano." />
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-10
+export default function Header(props) {
+  return (
+    <div>
+      <h1 className="bg-primary px-3 text-white display-4 text-right">
+         {props.header}</h1>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-11
+export default function Footer(props) {
+  return (
+    <div className="text-center h6 my-4">
+      <div>{props.footer}</div>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-12――index.js
+import Layout from '../components/layout'
+import Link from 'next/link'
+
+export default function Home() {
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">Welcome to next.js!</h5>
+        <Link href="./other">
+          <button className="btn btn-primary">
+            go to Other &gt;&gt;
+          </button>
+        </Link>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-13――other.js
+import Layout from '../components/layout'
+import Link from 'next/link'
+
+export default function Other() {
+  return (
+    <div>
+      <Layout header="Next.js" title="Other page.">
+      <div className="card  p-4 text-center">
+        <h5 className="mb-4">This is Other page...</h5>
+        <Link href=".">
+          <button className="btn btn-primary">
+            &lt;&lt; Back to Top
+          </button>
+        </Link>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-14
+export default function MyImage(props) {
+  let fname = './' + props.fname
+  let size = props.size + "px"
+
+  return (
+    <img width={size} border="1"
+        src={fname} />
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-15
+import Layout from '../components/layout'
+import MyImage from '../components/image'
+
+export default function Home() {
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">Welcome to next.js!</h5>
+        <MyImage fname="image.jpg" size="300" />
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-16
+{
+  "message": "This is sample JSON data.",
+  "data": [
+    {"name":"taro", "mail":"taro@yamada", "age":39},
+    {"name":"hanako", "mail":"hanako@flower", "age":28},
+    {"name":"sachiko", "mail":"sachiko@happy", "age":17}
+  ]
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-17
+import {useState} from 'react'
+import Layout from '../components/layout'
+
+export default function Home() {
+  const url = './data.json'
+  const [data, setData] = useState({message:'', data:[]})
+
+  fetch(url)
+    .then(res=> res.json())
+    .then(res=> setData(res))
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{data.message}</h5>
+        <table className="table bg-white">
+          <thead className="table-dark">
+            <tr><th>Name</th><th>Mail</th><th>Age</th></tr>
+          </thead>
+          <tbody>
+            {data.data.map((value, key)=> (
+              <tr key={key}>
+                <th>{value.name}</th>
+                <td>{value.mail}</td>
+                <td>{value.age}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-18
+import Layout from '../components/layout'
+import useSWR from 'swr'
+
+export default function Home() {
+  const { data } = useSWR('/data.json')
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">
+          {data != undefined ? data.message : 'error...' }
+        </h5>
+        <table className="table table-dark">
+          <thead className="">
+            <tr><th>Name</th><th>Mail</th><th>Age</th></tr>
+          </thead>
+          <tbody>
+            {data != undefined ? data.data.map((value, key)=> (
+              <tr key={key}>
+                <th>{value.name}</th>
+                <td>{value.mail}</td>
+                <td>{value.age}</td>
+              </tr>
+            )) : <tr><th></th><td>no data.</td><td></td></tr>}
+          </tbody>
+        </table>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-19
+const { data, err } = useSWR('/data.txt')
+
+
+
+---------------------------------
+
+
+▼リスト5-20
+import Layout from '../components/layout'
+import useSWR from 'swr'
+
+export default function Home() {
+  const func = (...args)=> fetch(...args).then(res => res.text())
+  const { data, err } = useSWR('/data.txt', func)
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">
+          { data }
+        </h5>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-21
+export default (req, res) => {
+  res.statusCode = 200
+  res.json({ name: 'John Doe' })
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-22
+export default [
+  {"name":"taro", "mail":"taro@yamada", "age":39},
+  {"name":"hanako", "mail":"hanako@flower", "age":28},
+  {"name":"sachiko", "mail":"sachiko@happy", "age":17},
+  {"name": "jiro", "mail": "jiro@change", "age": 6},
+  {"name": "mami", "mail": "mami@mumemo", "age": 50},
+]
+
+
+
+---------------------------------
+
+
+▼リスト5-23
+import apidata from '../../components/data'
+
+export default function handler(req, res) {
+  let id = req.query.id
+  if (id == undefined) { id = 0 }
+  if (id >= apidata.length) { id = 0 }
+
+  res.json(apidata[id])
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-24
+import {useState} from 'react'
+import Layout from '../components/layout'
+import useSWR from 'swr'
+
+export default function Home() {
+  const [ address, setAddress ] = useState('/api/hello')
+  const { data, err } = useSWR(address)
+
+  const onChange = (e)=> {
+    setAddress('/api/hello?id=' + e.target.value)
+  }
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">
+          { JSON.stringify(data) }
+        </h5>
+        <input type="number" className="form-control"
+          onChange={onChange} />
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-25
+import apidata from '../../../components/data'
+
+export default function handler(req, res) {
+  const {
+    query: {id}
+  } = req
+
+  res.json(apidata[id])
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-26
+const onChange = (e)=> {
+  setAddress('/api/hello/' + e.target.value)
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-27
+import apidata from '../../../components/data'
+
+export default function handler(req, res) {
+  const {
+    query: {params: [id, item]}
+  } = req
+  
+  const result = {id: id, item: apidata[id][item]}
+  res.json(result)
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-28
+import {useState} from 'react'
+import Layout from '../components/layout'
+import useSWR from 'swr'
+
+export default function Home() {
+  const [pref, setPref] = useState({id:0, item:'name'})
+  const [ address, setAddress ] = useState('/api/hello/'
+      + pref.id + '/' + pref.item)
+  const { data, err } = useSWR(address)
+
+  const onChange = (e)=> {
+    pref.id = e.target.value
+    setPref(pref)
+    setAddress('/api/hello/' + pref.id + '/' + pref.item)
+  }
+  const onSelect = (e)=> {
+    pref.item = e.target.value
+    setPref(pref)
+    setAddress('/api/hello/' + pref.id + '/' + pref.item)
+  }
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">
+          {JSON.stringify(data) }
+        </h5>
+        <input type="number" 
+            className="form-control form-control-sm mb-2"
+          onChange={onChange} />
+        <select onChange={onSelect} 
+            className="form-control form-control-sm">
+          <option value="name">Name</option>
+          <option value="mail">Mail</option>
+          <option value="age">Age</option>
+        </select>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-29
+export default {
+  'func': {
+    'tax': {
+      'caption': '入力した金額から消費税（10%）価格を計算します。',
+      'function': '(...param)=> { return Math.floor(param[0] * 1.1) }'
+    },
+    'tax2': {
+      'caption': '入力した金額から軽減税率（8%）による税込価格を計算します。',
+      'function': '(...param)=> { return Math.floor(param[0] * 1.08) }'
+    },
+    'total': {
+      'caption': '10,20,30...というようにカンマで区切った数字の合計を計算します。',
+      'function': `(...param)=> {
+        let re = 0
+        for (let i in param) {
+          re += param[i] * 1
+        }
+        return re
+      }`
+    },
+    'factorial': {
+      'caption': 'ゼロから入力値までの合計を計算します。',
+      'function': `(...param)=> {
+        let re = 0;
+        for(let i = 0;i <= param[0];i++){
+          re += i
+        }
+        return re
+      }`
+    },
+  }
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-30
+import func from '../../components/func'
+
+export default function handler(req, res) {
+  res.json(func)
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-31
+import {useState, useEffect} from 'react'
+import  usePersist  from './Persist'
+
+export default function Calc(props) {
+  const [message, setMessage] = useState('')
+  const [input, setInput] = useState('')
+  const [data, setData] = usePersist('calc-history', [])
+  const [func, setFunc] = useState({func:{}})
+
+  const fetchFunc = (address)=> 
+    fetch(address).then(res => res.json())
+  
+  useEffect(() => {
+    fetchFunc('/api/func').then((r)=>{
+      setFunc(r)
+    })
+  },[data])
+
+  const onChange = (e)=> {
+    setInput(e.target.value)
+  }
+  const onKeyPress = (e)=> {
+    if (e.key == 'Enter') {
+      doAction(e)
+    }
+  }
+
+  // Enter時の処理
+  const doAction = (e)=> {
+    const res = eval(input)
+    setMessage(res)
+    data.unshift(input + ' = ' + res)
+    setData(data)
+    setInput('')
+  }
+
+  // 履歴のクリア
+  const clear = (e)=> {
+    setData([])
+    setMessage('Clear history.')
+  }
+
+  // 関数ボタンの処理
+  const doFunc = (e)=> {
+    const arr = input.split(',')
+    const fid = e.target.id
+    const f = func.func[fid]
+    const fe = eval(f.function)
+    const res = fe(arr)
+    setMessage(res)
+    data.unshift(fid + ' = ' + res)
+    setData(data)
+    setInput('')
+  }
+   
+  return (
+    <div>
+      <div className="alert alert-primary">
+        <h5>Result: {message}</h5>
+        <div className="form-group">
+          <input type="text" value={input} className="form-control"
+            onChange={onChange} onKeyPress={onKeyPress} />
+        </div>
+        {Object.entries(func.func).map((value,key)=>(
+          <button className="btn btn-secondary m-1" key={key}
+            title={value[1].caption} id={value[0]}
+            onClick={doFunc} >{value[0]}</button>
+        ))}
+      </div>
+      <table className="table">
+        <thead><tr><th>History:</th></tr></thead>
+        <tbody>
+          {data.map((value,key)=> (
+            <tr key={key}><td>{value}</td></tr>
+          ))}
+        </tbody>
+      </table>
+      <button onClick={clear} className="btn btn-warning">
+        Clear History
+      </button>
+    </div>
+  )
+
+}
+
+
+
+---------------------------------
+
+
+▼リスト5-32
+import Layout from '../components/layout'
+import Calc from '../components/Calc'
+
+export default function Home() {
+  return (
+    <div>
+      <Layout header="Calc" title="Calculator">
+      <div className="text-center">
+        <Calc />
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+■6章
+---------------------------------
+
+
+▼リスト6-1
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "……APIキー……",
+    authDomain: "プロジェクト名.firebaseapp.com",
+    databaseURL: "データベースのURL", 
+    projectId: "プロジェクト名",
+    storageBucket: "プロジェクト名.appspot.com",
+    messagingSenderId: "……メッセージ用ID……",
+    appId: "……アプリケーションID……"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+---------------------------------
+
+
+▼リスト6-2
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-3
+import firebase from 'firebase'
+
+// ☆各プロジェクトの設定を記述
+const firebaseConfig = {
+  apiKey: "……APIキー……",
+  authDomain: "プロジェクト名.firebaseapp.com",
+  databaseURL: "データベースのURL", 
+  projectId: "プロジェクト名",
+  storageBucket: "プロジェクト名.appspot.com",
+  messagingSenderId: "……メッセージ用ID……",
+  appId: "……アプリケーションID……"
+}
+
+if (firebase.apps.length == 0) {
+  firebase.initializeApp(firebaseConfig)
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-4
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import '../../components/fire'
+
+const db = firebase.firestore()
+
+export default function Home() {
+  const mydata = []
+  const [data, setData] = useState(mydata)
+  const [message, setMessage] = useState('wait...')
+
+  useEffect(() => {
+    db.collection('mydata').get().then((snapshot)=> {
+      snapshot.forEach((document)=> {
+        const doc = document.data()
+        mydata.push(
+          <tr key={document.id}>
+            <td><a href={'/fire/del?id=' + document.id}>
+                {document.id}</a></td>
+            <td>{doc.name}</td>
+            <td>{doc.mail}</td>
+            <td>{doc.age}</td>
+          </tr>
+        )
+      })
+      setData(mydata)
+      setMessage('Firebase data.')
+    })
+  }, [])
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <table className="table bg-white text-left">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Mail</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data}
+          </tbody>
+        </table>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-5
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import { useRouter } from 'next/router'
+import '../../components/fire'
+
+const db = firebase.firestore()
+
+export default function Add() {
+  const [message, setMessage] = useState('add data')
+  const [name, setName] = useState('')
+  const [mail, setMail] = useState('')
+  const [age, setAge] = useState(0)
+  const router = useRouter()
+
+  const onChangeName = ((e)=> {
+    setName(e.target.value)
+  })
+  const onChangeMail = ((e)=> {
+    setMail(e.target.value)
+  })
+  const onChangeAge = ((e)=> {
+    setAge(e.target.value)
+  })
+
+ const doAction = ((e)=> {
+    const ob = {
+      name:name,
+      mail:mail,
+      age:age
+    }
+    db.collection('mydata').add(ob).then(ref=> {
+      router.push('/fire')
+    })
+  })
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <div className="text-left">
+          <div className="form-group">
+            <label>Name:</label>
+            <input type="text" onChange={onChangeName}
+              className="form-control" />
+          </div>
+          <div className="form-group">
+            <label>Mail:</label>
+            <input type="text" onChange={onChangeMail}
+              className="form-control" />
+          </div>
+          <div className="form-group">
+            <label>Age:</label>
+            <input type="number" onChange={onChangeAge}
+              className="form-control" />
+          </div>
+        </div>
+        <button onClick={doAction} className="btn btn-primary">
+          Add
+        </button>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-6
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import { useRouter } from 'next/router'
+import '../../components/fire'
+
+const db = firebase.firestore()
+
+export default function Delete(props) {
+  const [message, setMessage] = useState('wait.')
+  const [data, setData] = useState(null)
+  const router = useRouter()
+    
+  useEffect(() => {
+    if (router.query.id != undefined) {
+      setMessage('Delete id = ' + router.query.id)
+      db.collection('mydata').doc(router.query.id).get().then(ob=>{
+        setData(ob.data())
+      })
+    } else {
+      setMessage(message + '.')
+    }
+  }, [message])
+
+ const doAction = (e)=> {
+    db.collection('mydata').doc(router.query.id)
+        .delete().then(ref=> {
+      router.push('/fire')
+    })
+  }
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <pre className="card p-3 m-3 h5 text-left">
+          Name: {data != null ? data.name : '...'}<br/>
+          Mail: {data != null ? data.mail : '...'}<br/>
+          Age: {data != null ? data.age : '...'}
+        </pre>
+        <button onClick={doAction} className="btn btn-primary">
+          Delete
+        </button>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-7
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import { useRouter } from 'next/router'
+import '../../components/fire'
+
+const db = firebase.firestore()
+
+export default function Find() {
+  const [message, setMessage] = useState('find data')
+  const [find, setFind] = useState('')
+  const [data, setData] = useState([])
+  const mydata = []
+
+  const onChangeFind = ((e)=> {
+    setFind(e.target.value)
+  })
+
+ const doAction = ((e)=> {
+    db.collection('mydata').where('name', '==', find).get().then(snapshot=> {
+      snapshot.forEach((document)=> {
+        const doc = document.data()
+        mydata.push(
+          <tr key={document.id}>
+            <td><a href={'/fire/del?id=' + document.id}>
+                {document.id}</a></td>
+            <td>{doc.name}</td>
+            <td>{doc.mail}</td>
+            <td>{doc.age}</td>
+          </tr>
+        )
+      })
+      setData(mydata)
+      setMessage("find: " + find)
+    })
+  })
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <div className="text-left">
+          <div className="form-group">
+            <label>Find:</label>
+            <input type="text" onChange={onChangeFind}
+              className="form-control" />
+          </div>
+        </div>
+        <button onClick={doAction} className="btn btn-primary">
+          Find
+        </button>
+      </div>
+      <table className="table bg-white text-left">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Mail</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data}
+          </tbody>
+        </table>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-8
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import '../../components/fire'
+
+const auth = firebase.auth()
+const provider = new firebase.auth.GoogleAuthProvider();
+
+export default function Home() {
+  const [message, setMessage] = useState('wait...')
+
+  useEffect(() => {
+    auth.signInWithPopup(provider).then(result=> {
+      setMessage('logined: ' + result.user.displayName)
+    })
+  }, [])
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <p className="h6 text-left">
+          uid: {auth.currentUser != null ? auth.currentUser.uid : ''}<br/>
+          displayName: {auth.currentUser != null ? auth.currentUser.displayName : ''}<br/>
+          email: {auth.currentUser != null ? auth.currentUser.email : ''}<br/>
+          phoneNumber: {auth.currentUser != null ? auth.currentUser.phoneNumber : ''}
+
+        </p>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-9
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-10
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import '../../components/fire'
+
+const db = firebase.firestore()
+const auth = firebase.auth()
+const provider = new firebase.auth.GoogleAuthProvider();
+
+auth.signOut() //☆ログアウトする
+
+export default function Home() {
+  const mydata = []
+  const [data, setData] = useState(mydata)
+  const [message, setMessage] = useState('wait...')
+
+  useEffect(() => {
+    auth.signInWithPopup(provider).then(result=> {
+      setMessage('logined: ' + result.user.displayName)
+    }).catch((error) => {
+      setMessage('not logined.')
+    })
+  },[])
+
+  useEffect(() => {
+    if (auth.currentUser != null) {
+      db.collection('mydata').get().then((snapshot)=> {
+        snapshot.forEach((document)=> {
+          const doc = document.data()
+          mydata.push(
+            <tr key={document.id}>
+              <td><a href={'/fire/del?id=' + document.id}>
+                  {document.id}</a></td>
+              <td>{doc.name}</td>
+              <td>{doc.mail}</td>
+              <td>{doc.age}</td>
+            </tr>
+          )
+        })
+        setData(mydata)
+      })
+    } else {
+      mydata.push(
+        <tr key="1"><th colSpan="4">can't get data.</th></tr>
+      )
+    }
+  }, [message])
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Top page.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <table className="table bg-white text-left">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Mail</th>
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data}
+          </tbody>
+        </table>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-11
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import { useRouter } from 'next/router'
+import firebase from 'firebase'
+import '../../components/fire'
+
+const db = firebase.firestore()
+const auth = firebase.auth()
+const provider = new firebase.auth.GoogleAuthProvider();
+
+auth.signOut()
+
+export default function Index() {
+  let addresses = []
+  const [user, setUser] = useState(null)
+  const [data, setData] = useState(addresses)
+  const [message, setMessage] = useState('please login...')
+  const router = useRouter()
+
+  // ログイン処理
+  const login = ()=> {
+    auth.signInWithPopup(provider).then(result=> {
+      setUser(result.user.displayName)
+      setMessage('logined: ' + result.user.displayName)
+    }).catch((error) => {
+      setUser('NONE')
+      setMessage('not logined.')
+    })
+  }
+
+  // ログアウト処理
+  const logout = ()=> {
+    auth.signOut()
+    setUser(null)
+    addresses = []
+    setData(addresses)
+    setMessage('logout...')
+  }
+
+  // ログイン表示をクリックしたとき
+  const doLogin = (e)=> {
+    if (auth.currentUser == null) {
+      login()
+    } else {
+      logout()
+    }
+  }
+
+  // /addへの移動
+  const doAction = (e)=> {
+    router.push('/address/add')
+  }
+
+  // アドレスのページへの移動
+  const doLink = (e)=> {
+    const id = e.target.id
+    router.push('/address/info?id=' + id)
+  }
+
+  // アドレスデータの取得と表示
+  useEffect(() => {
+    if (auth.currentUser != null) {
+      setUser(auth.currentUser.displayName)
+      setMessage(auth.currentUser.displayName + 'さんの登録アドレス')
+      db.collection('address')
+          .doc(auth.currentUser.email)
+          .collection('address').get()
+          .then((snapshot)=> {
+        snapshot.forEach((document)=> {
+          const doc = document.data()
+          addresses.push(
+            <li className="list-group-item list-group-item-action p-1" 
+                onClick={doLink} id={document.id}>
+              {doc.flag ? '√' : ''}{doc.name} ({doc.mail})
+            </li>
+          )
+        })
+        setData(addresses)
+      })
+    } else {
+      addresses.push(
+        <li key="1">can't get data.</li>
+      )
+    }
+  }, [message])
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Address book.">
+      <div className="alert alert-primary text-center">
+        <h6 className="text-right" onClick={doLogin}>
+          LOGINED: {user}
+        </h6>
+        <h5 className="mb-4">{message}</h5>
+        <ul className="list-group">
+          {data}
+        </ul>
+        <hr/>
+        <button className="btn btn-primary"
+            onClick={doAction}>Add address</button>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-12
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import { useRouter } from 'next/router'
+import '../../components/fire'
+
+const db = firebase.firestore()
+const auth = firebase.auth()
+
+export default function Add() {
+  const [message, setMessage] = useState('add address')
+  const [name, setName] = useState('')
+  const [mail, setMail] = useState('')
+  const [tel, setTel] = useState('')
+  const [memo, setMemo] = useState('')
+  const router = useRouter()
+
+  // ログインしてなければトップページに戻る
+  useEffect(() => {
+    if (auth.currentUser == null) {
+      router.push('/address')
+    }
+  },[])
+
+  // name, mail, tel, memoの入力処理
+  const onChangeName = ((e)=> {
+    setName(e.target.value)
+  })
+  const onChangeMail = ((e)=> {
+    setMail(e.target.value)
+  })
+  const onChangeTel = ((e)=> {
+    setTel(e.target.value)
+  })
+  const onChangeMemo = ((e)=> {
+    setMemo(e.target.value)
+  })
+
+  // アドレスの登録
+  const doAction = ((e)=> {
+    const ob = {
+      name:name,
+      mail:mail,
+      tel:tel,
+      memo:memo,
+      flag:false
+    }
+    db.collection('address').doc(auth.currentUser.email)
+        .collection('address').doc(mail).set(ob).then(ref=> {
+      router.push('/address')
+    })
+  })
+
+  // トップページに戻る
+  const goBack = (e)=> {
+    router.push('/address')
+  }
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Create data.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <div className="text-left">
+          <div className="form-group">
+            <label>Name:</label>
+            <input type="text" onChange={onChangeName}
+              className="form-control" />
+          </div>
+          <div className="form-group">
+            <label>Mail:</label>
+            <input type="text" onChange={onChangeMail}
+              className="form-control" />
+          </div>
+          <div className="form-group">
+            <label>Tel:</label>
+            <input type="text" onChange={onChangeTel}
+              className="form-control" />
+          </div>
+          <div className="form-group">
+            <label>Memo:</label>
+            <input type="text" onChange={onChangeMemo}
+              className="form-control" />
+          </div>
+        </div>
+        <button onClick={doAction} className="btn btn-primary">
+          Add
+        </button>
+        <button onClick={goBack} className="btn">
+          Go Back
+        </button>
+      </div>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リスト6-13 ――info.js
+import {useState, useEffect} from 'react'
+import Layout from '../../components/layout'
+import firebase from 'firebase'
+import { useRouter } from 'next/router'
+import '../../components/fire'
+
+const db = firebase.firestore()
+const auth = firebase.auth()
+
+export default function Info() {
+  const [message, setMessage] = useState('address info')
+  const [cmt, setCmt] = useState('')
+  const [mydata, setMydata] = useState(null)
+  const [msgdata, setMsgdata] = useState([])
+  const router = useRouter()
+
+  // ログインしてなければトップページに戻る
+  useEffect(() => {
+    if (auth.currentUser == null) {
+      router.push('/address')
+    }
+  },[])
+
+  // 入力フィールドの処理
+  const onChangeCmt = ((e)=> {
+    setCmt(e.target.value)
+  })
+
+  // メッセージの投稿
+  const doAction = ((e)=> {
+    const t = new Date().getTime()
+    const to = {
+      comment:'To: ' + cmt,
+      time:t
+    }
+    const from = {
+      comment:'From: ' + cmt,
+      time:t
+    }
+    // 自身のアドレス内にメッセージを追加
+    db.collection('address')
+        .doc(auth.currentUser.email)
+        .collection('address')
+        .doc(router.query.id)
+        .collection('message').add(to).then(ref=> {
+      // 相手のアドレス内にメッセージを追加
+      db.collection('address')
+          .doc(router.query.id)
+          .collection('address')
+          .doc(auth.currentUser.email)
+          .collection('message').add(from).then(ref=> {
+        // 相手のアドレス内のflagを変更
+        db.collection('address')
+            .doc(router.query.id)
+            .collection('address')
+            .doc(auth.currentUser.email).update({flag:true}).then(ref=> {
+          router.push('/address')
+        })
+      })
+    })
+  })
+
+  // トップページに戻る
+  const goBack = (e)=> {
+    router.push('/address')
+  }
+
+  // アドレスデータとメッセージを取得し表示
+  useEffect(() => {
+    if (auth.currentUser != null) {
+      db.collection('address')
+          .doc(auth.currentUser.email)
+          .collection('address')
+          .doc(router.query.id).get()
+          .then((snapshot)=> {
+        setMydata(snapshot.data())
+      })
+      db.collection('address')
+          .doc(auth.currentUser.email)
+          .collection('address')
+          .doc(router.query.id)
+          .collection('message').orderBy('time', 'desc').get()
+          .then(snapshot=> {
+        const data = []
+        snapshot.forEach((document)=> {
+          data.push(<li className="list-group-item px-3 py-1">
+            {document.data().comment}
+          </li>)
+        })
+        setMsgdata(data)
+      })
+      db.collection('address')
+        .doc(auth.currentUser.email)
+        .collection('address')
+        .doc(router.query.id).update({flag:false})
+    } else {
+      setMessage("no data")
+    }
+  }, [message])
+
+  return (
+    <div>
+      <Layout header="Next.js" title="Info & messages.">
+      <div className="alert alert-primary text-center">
+        <h5 className="mb-4">{message}</h5>
+        <div className="text-left">
+          <div>
+            <div>Name: {mydata != null ? mydata.name : ''}</div>
+            <div>Mail: {mydata != null ? mydata.mail : ''}</div>
+            <div>Tel: {mydata != null ? mydata.tel : ''}</div>
+            <div>Memo: {mydata != null ? mydata.memo : ''}</div>
+          </div>
+          <hr/>
+          <div className="form-group">
+            <label>Message:</label>
+            <input type="text" onChange={onChangeCmt}
+              className="form-control" />
+          </div>
+        </div>
+        <button onClick={doAction} className="btn btn-primary">
+          Send Message
+        </button>
+        <button onClick={goBack} className="btn">
+          Go Back
+        </button>
+      </div>
+      <ul className="list-group">
+        {msgdata}
+      </ul>
+      </Layout>
+    </div>
+  )
+}
+
+
+
+---------------------------------
+
+
+▼リストA-1
+<!DOCTYPE html>
+<html lang="ja">
+<head><title>Sample</title></head>
+<body>
+<h1>Index</h1>
+<script>
+function hello(name){
+  document.write('<p>こんにちは、' + name + 'さん！</p>')
+}
+
+hello('たろう')
+hello('花子')
+</script>
+</body>
+</html>
+
+
+
+---------------------------------
+
+
+▼リストA-2
+function a(){
+  return "hello"
+}
+
+let b = a
+let c = a()
+
+
+
+---------------------------------
+
+
+▼リストA-3
+function hello(getName, name){
+  document.write('<p>こんにちは、' + getName(name) + 'さん！</p>')
+}
+hello((name)=>{ return '<b>' + name + '</b>'; }, 'たろう')
+hello((name)=>'<<<' + name + '>>>', '花子')
+
+
+
+---------------------------------
+
+
+▼リストA-4
+const ob = { red:255, green:125, blue:0 }
+document.write('<p>RED: ' + ob.red + '</p>')
+document.write('<p>GREEN:' + ob.green + '</p>')
+document.write('<p>BLUE: ' + ob.blue + '</p>')
+
+
+
+---------------------------------
+
+
+▼リストA-5
+const ob = {
+    red:255, green:125, blue:0,
+    
+    print: function(){
+      document.write('<p>RED: ' + this.red + '</p>')
+      document.write('<p>GREEN:' + this.green + '</p>')
+      document.write('<p>BLUE: ' + this.blue + '</p>')
+    }
+}
+ob.print()
+
+
+
+---------------------------------
+
+
+▼リストA-6
+let ob = {
+    red:255, green:125, blue:0,
+    
+    print(){
+      document.write('<p>RED: ' + this.red + '</p>')
+      document.write('<p>GREEN:' + this.green + '</p>')
+      document.write('<p>BLUE: ' + this.blue + '</p>')
+    }
+};
+document.write(ob.print());
+
+
+
+---------------------------------
+
+
+▼リストA-7
+class MyObj {
+    constructor(r, g, b){
+        this.red = r
+        this.green = g
+        this.blue = b
+    }
+
+    get hex(){
+        return '#' + ('00' + this.red.toString(16)).substr(-2)
+            + ('00' + this.blue.toString(16)).substr(-2)
+            + ('00' + this.green.toString(16)).substr(-2)
+    }
+
+    get startP(){
+        return '<p style="background-color:' 
+            + this.hex + '">'
+    }
+
+    get endP(){
+        return '</p>'
+    }
+
+    print(){
+        document.write(this.startP)
+        document.write('RED:  ' + this.red + '<br/>')
+        document.write('GREEN:' + this.green + '<br/>')
+        document.write('BLUE: ' + this.blue + '<br/>')
+        document.write(this.endP)
+    }
+};
+
+let ob = new MyObj(255,200,200)
+ob.print()
+
+let ob2 = new MyObj(0, 150, 200)
+ob2.print()

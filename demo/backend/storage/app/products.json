@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img1.jpg",
+        "title": "trainers",
+        "subtitle": "Trainers In White",
+        "price": "76",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 2,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img2.jpg",
+        "title": "boots",
+        "subtitle": "Trainers In Blue",
+        "price": "45",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": "20",
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 3,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img3.jpg",
+        "title": "flat sandals",
+        "subtitle": "Trainers In White",
+        "price": "55",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 4,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img4.jpg",
+        "title": "trainers",
+        "subtitle": "Trainers In White",
+        "price": "76",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 5,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img5.jpeg",
+        "title": "boots",
+        "subtitle": "Trainers In Blue",
+        "price": "45",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": "20",
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 6,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img6.jpg",
+        "title": "flat sandals",
+        "subtitle": "Trainers In White",
+        "price": "55",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 7,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img1.jpg",
+        "title": "trainers",
+        "subtitle": "Trainers In White",
+        "price": "76",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 8,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img2.jpg",
+        "title": "boots",
+        "subtitle": "Trainers In Blue",
+        "price": "45",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": "20",
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 9,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img3.jpg",
+        "title": "flat sandals",
+        "subtitle": "Trainers In White",
+        "price": "55",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 10,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img4.jpg",
+        "title": "trainers",
+        "subtitle": "Trainers In White",
+        "price": "76",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 11,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img5.jpeg",
+        "title": "boots",
+        "subtitle": "Trainers In Blue",
+        "price": "45",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": "20",
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    },
+    {
+        "id": 12,
+        "img": "https://sing-generator-node.herokuapp.com/assets/products/img6.jpg",
+        "title": "flat sandals",
+        "subtitle": "Trainers In White",
+        "price": "55",
+        "rating": "4.6",
+        "description_1": "Sneakers (also known as athletic shoes, tennis shoes,gym shoes, runners, takkies, or trainers) are shoes primarily designed for sports or other forms of physical exercise, but which are now also often used for everyday wear.",
+        "description_2": "The term generally describes a type of footwear with a flexible sole made of rubber or synthetic material and an upper part made of leather or synthetic materials.",
+        "code": "135234",
+        "hashtag": "whitetrainers",
+        "technology": [
+            "Ollie patch",
+            "Cup soles",
+            "Vulcanized rubber soles"
+        ],
+        "discount": null,
+        "createdAt": "2021-04-09T09:00:07.361Z",
+        "updatedAt": "2021-04-09T09:00:07.361Z"
+    }
+]

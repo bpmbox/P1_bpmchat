@@ -1,0 +1,177 @@
+@import '../../../styles/app';
+
+.headerLink {
+  overflow-x: hidden;
+
+  font-size: $font-size-base !important;
+
+  margin: 5px 0;
+
+  &:first-child {
+    margin: 0 0 5px 0;
+  }
+
+  @media (min-width: map_get($grid-breakpoints, lg)) and (min-height: $screen-lg-height), (max-width: map_get($grid-breakpoints, md) - 1px) {
+    font-size: 13px;
+  }
+
+  a {
+    display: block;
+    color: var(--sidebar-color);
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  &:last-child > a {
+    border-bottom: 1px solid $sidebar-item-border-color;
+  }
+
+  > a {
+    position: relative;
+    align-items: center;
+    padding-left: 35px;
+    line-height: 35px;
+    border-top: 1px solid $sidebar-item-border-color;
+
+    img {
+      margin-right: 16px;
+    }
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    > i {
+      margin-right: 7px;
+    }
+
+    @media (min-width: map_get($grid-breakpoints, lg)) and (min-height: $screen-lg-height), (max-width: map_get($grid-breakpoints, md) - 1px) {
+      line-height: 45px;
+    }
+  }
+
+  .icon {
+    font-size: $font-size-larger;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 11px;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    opacity: .7;
+
+    @media (min-width: map_get($grid-breakpoints, lg)) and (min-height: $screen-lg-height), (max-width: map_get($grid-breakpoints, md) - 1px) {
+      top: 12px;
+    }
+  }
+
+  .badge {
+    float: right;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-right: 35px;
+    background: var(--badge-background-color);
+    color: var(--badge-item-color);
+    border: 1px solid var(--badge-border-color);
+    font-weight: 400;
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+    border-radius: 50%;
+    padding: 0.22em 0.5em;
+    @media (min-width: map_get($grid-breakpoints, lg)) and (min-height: $screen-lg-height), (max-width: map_get($grid-breakpoints, md) - 1px) {
+      margin-top: 12px;
+    }
+  }
+
+  .headerUpdate {
+    color: var(--update-notification)
+  }
+
+  a.headerLinkActive {
+    color: var(--sidebar-item-active-color);
+    font-weight: 700;
+
+    &:hover {
+      color: var(--sidebar-item-active-color);
+    }
+
+    .icon {
+      border-radius: 50%;
+      background-color: var(--sidebar-item-active-color);
+      opacity: 1;
+
+      i {
+        color: var(--sidebar-bg-color);
+      }
+    }
+  }
+}
+
+.headerLabel {
+  font-weight: 700;
+  padding: 7px 4px;
+  color: $white;
+  border-radius: 12px;
+}
+
+.collapsed .activeCaret {
+  transform: rotate(360deg);
+  color: var(--main-color)
+}
+
+i.caret, i.activeCaret {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 35px !important;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #C1C2C1;
+
+  @include transition(transform 0.3s ease-in-out);
+}
+
+.panel {
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  border-radius: 0;
+
+  a.headerLinkActive {
+    font-weight: $font-weight-semi-bold;
+    color: var(--sidebar-color);
+
+    &:hover {
+      color: var(--sidebar-color);
+    }
+  }
+
+  ul {
+    margin-top: 13px;
+    background: var(--sidebar-ui-background-color);
+    padding: $spacer;
+    border-right: 3px var(--main-color) solid;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      padding: 10px 20px 10px 26px;
+      font-size: $font-size-mini;
+
+      &:hover {
+        font-weight: $font-weight-semi-bold;
+      }
+    }
+  }
+}
+
