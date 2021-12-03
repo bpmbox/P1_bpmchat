@@ -1,3 +1,6 @@
+# command --
+  - fileupload
+
 # React Firebase CRUD App with Realtime Database
 
 For instruction, please visit:
