@@ -5,6 +5,10 @@ simplemde http://unitopi.com/markdown-editor/
 
 ## Welcome to GitHub Pages
 
+コンポーネントの登録
+あと　あれだな　マークダウンエディターのリンクだな　リアルタイムがいい
+
+
 You can use the [editor on GitHub](https://github.com/bpmbox/bpmchat/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
