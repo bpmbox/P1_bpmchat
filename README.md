@@ -1,5 +1,13 @@
 # bpmchat
 
+```mermaid
+sequenceDiagram
+    コック ->> フライパン: ハンバーグを焼く
+    フライパン -->> コック : 焼き上がり
+
+```
+
+
 業務設計から　開発ナビゲートまで
 
 https://www.google.com/search?q=github+%E6%A4%9C%E7%B4%A2%E6%96%B9%E6%B3%95&rlz=1C1AGAK_jaJP963JP963&oq=github+%E6%A4%9C%E7%B4%A2%E6%96%B9%E6%B3%95&aqs=chrome..69i57j69i64.9856j0j7&sourceid=chrome&ie=UTF-8
