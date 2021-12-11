@@ -1,3 +1,4 @@
-<script>
 alert("git hub test");
-</script>
+function github(){
+ alert("test") 
+}
