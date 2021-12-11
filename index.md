@@ -2,8 +2,12 @@
 https://snack.expo.dev/@miyataken999/001_002_005_react_render_html
 
 simplemde http://unitopi.com/markdown-editor/
-
+https://qiita.com/ka215/items/a709665cb34c505ccf1f
 ## Welcome to GitHub Pages
+
+今日やること
+- EXPOSNACKで表示
+- 部品まとめ
 
 コンポーネントの登録
 あと　あれだな　マークダウンエディターのリンクだな　リアルタイムがいい
