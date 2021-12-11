@@ -31,6 +31,15 @@ bpmchatproject
    やること
    ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
    
+   ```mermaid
+sequenceDiagram
+participant cook as コック
+participant kitchenware1 as フライパン
+    cook ->> kitchenware1: ハンバーグを焼く
+    kitchenware1 -->> cook : 焼き上がり
+
+```
+   
    
    
 
