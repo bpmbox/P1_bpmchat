@@ -10,7 +10,7 @@ function test(){
     
     // メソッドを追加する
 　　greeting(){
-        Browser.msgBox(this.greetingword);
+        Logger.log(this.greetingword);
     }
   }
 
