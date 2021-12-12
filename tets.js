@@ -17,6 +17,7 @@ function test(){
     // メソッドを追加する
 　　greeting(){
         Logger.log(this.greetingword);
+    return this.greetingword
     }
   }
 
@@ -24,6 +25,6 @@ function test(){
 　var hirachin = new Person("ひらちん","オッス！")
 
 　// メソッドを実行する
-　hirachin.greeting()
+　return hirachin.greeting()
 }
 
