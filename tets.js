@@ -1,4 +1,4 @@
-function gastest(){
- Logger.log("error") 
+function gastest(test){
+ Logger.log(test) 
 }
 
