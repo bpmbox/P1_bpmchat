@@ -1,4 +1,4 @@
-function test(){
+function test(val){
   
   function didmount(){
   }
@@ -16,7 +16,7 @@ function test(){
     
     // メソッドを追加する
 　　greeting(){
-        Logger.log(this.greetingword);
+        Logger.log(this.greetingword+val);
     return this.greetingword
     }
   }
