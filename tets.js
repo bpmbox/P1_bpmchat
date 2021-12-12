@@ -4,5 +4,5 @@ gastest(test){
 }
 }
 
-return test()
+return new test()
 
