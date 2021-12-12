@@ -1,4 +1,10 @@
 function test(){
+  
+  function didmount(){
+  }
+  
+  function willmount(){
+  }
 
   // Personクラスを定義する（引数付き）
   class Person {
