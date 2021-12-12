@@ -1,4 +1,6 @@
-function gastest(test){
+class test{
+gastest(test){
  Logger.log(test) 
+}
 }
 
