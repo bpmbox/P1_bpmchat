@@ -4,3 +4,5 @@ gastest(test){
 }
 }
 
+return test()
+
