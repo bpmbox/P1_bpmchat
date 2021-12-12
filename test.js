@@ -1,5 +1,5 @@
 'use strict';
-
+alert("test")
 const Test = ({ children }: { children: Node }) => {
   return (
     <div className="childrenTitle">
