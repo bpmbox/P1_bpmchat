@@ -60,8 +60,10 @@ function test(val) {
       return this.greetingword
     }
   }
-
+  // ret = eval(val+"()"")
   // new演算子で引数を渡してインスタンスを作成する
+  ret = eval(val+"()")
+  return ret
   if (val == "日本語") {
     var hirachin = new Person("ひらちん", "オッス！")
     // メソッドを実行する
@@ -70,5 +72,10 @@ function test(val) {
   if(val === "うんこ"){
     return うんこ()
   }
+  if(val === "おしっこ"){
+    return おしっこ()
+  }
+
+
 }
 
