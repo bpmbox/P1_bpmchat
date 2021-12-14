@@ -2,7 +2,8 @@
 //GASプラグイン言葉によって処理を変更します
 function test(val) {
   const react = `
-  const a = 
+  HTMLを表示
+  <input></input>
   
   `
 
@@ -15,6 +16,39 @@ function test(val) {
 
   function firebace(){
     return "<a href='https://console.firebase.google.com/u/0/project/rpa999-56929/database/rpa999-56929/data' target=_blunk>firebase</a>"
+  }
+
+  function myFunction20_03_01() {
+    const scriptProperties = PropertiesService.getScriptProperties();
+    let count = scriptProperties.getProperty('COUNT');
+  
+    if (count) {
+      count++;
+      scriptProperties.setProperty('COUNT', count);
+    } else {
+      scriptProperties.setProperty('COUNT', 1);
+    }
+  }
+  
+  function myFunction20_03_02() {
+    const scriptProperties = PropertiesService.getScriptProperties();
+    scriptProperties.setProperties({'猫': 'にゃーご', '馬': 'ひひーん'});
+      
+    const properties = scriptProperties.getProperties();
+    for (const key in properties) console.log(key, properties[key]);
+  }
+  
+  function myFunction20_03_03() {
+    const userProperties = PropertiesService.getUserProperties();
+    const spreadSheetId = userProperties.getProperty('SPREAD_SHEET_ID');
+    
+    if (spreadSheetId) {
+      throw('既にスプレッドシートが存在しています: ' + spreadSheetId);
+    } else {
+      const ssName = `スタッフ別(${Session.getActiveUser().getEmail()})`;
+      const ss = SpreadsheetApp.create(ssName);
+      userProperties.setProperty('SPREAD_SHEET_ID', ss.getId());
+    }
   }
 
   //harahetta       sssssssssssssssss
