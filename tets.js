@@ -12,8 +12,6 @@ function test(val) {
   <input></input>
   <input></input>
   <input></input>
-  
-  
   `
 
   const flowchar = `
@@ -47,8 +45,12 @@ function test(val) {
     }          
   `
 
-  function 業務登録(){
-return react;
+  function 業務登録() {
+    return react;
+  }
+
+  function 業務フロー(){
+    return `<a href="" target=_blunk>画面</a>`
   }
 
 
@@ -122,7 +124,7 @@ return react;
       userProperties.setProperty('SPREAD_SHEET_ID', ss.getId());
     }
   }
-const im = `
+  const im = `
 <div class="vote_button_container"></div><input></input><button></button>　/message/
           <script>
         document.querySelectorAll('.vote_button_container')
@@ -136,9 +138,9 @@ const im = `
           display
 
 `
-function 画面(){
-return im
-}
+  function 画面() {
+    return im
+  }
 
   //harahetta       sssssssssssssssss
   function おしっこ() {
@@ -154,7 +156,7 @@ return im
 
   //harahetta       sssssssssssssssss
   function 日本語() {
-    const response = UrlFetchApp.fetch('https://tonari-it.com');
+    const response = UrlFetchApp.fetch('https://c7f1-35-229-138-207.ngrok.io/');
     console.log(response.getResponseCode()); //200
 
     const headers = response.getHeaders();
