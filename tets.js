@@ -1,12 +1,22 @@
 
 //GASプラグイン言葉によって処理を変更します
 function test(val) {
+  const react = `
+  const a = 
+  
+  `
 
   function didmount() {
   }
 
   function willmount() {
   }
+
+
+  function firebace(){
+    return "<a href='https://console.firebase.google.com/u/0/project/rpa999-56929/database/rpa999-56929/data' target=_blunk>firebase</a>"
+  }
+
   //harahetta       sssssssssssssssss
   function おしっこ() {
     const response = UrlFetchApp.fetch('https://tonari-it.com');
