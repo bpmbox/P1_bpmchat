@@ -14,7 +14,8 @@ function test(val) {
 
     const headers = response.getHeaders();
     for (const key in headers) console.log(key, headers[key]);
-
+    
+    return response.getContentText()
     console.log(response.getContentText());
   }
 
@@ -39,6 +40,9 @@ function test(val) {
     var hirachin = new Person("ひらちん", "オッス！")
     // メソッドを実行する
     return hirachin.greeting()
+  }
+  if(val === "うんこ"){
+    return myFunction22_02_01()
   }
 }
 
