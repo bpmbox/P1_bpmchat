@@ -62,8 +62,12 @@ function test(val) {
   }
   // ret = eval(val+"()"")
   // new演算子で引数を渡してインスタンスを作成する
-  ret = eval(val+"()")
-  return ret
+  try{
+    ret = eval(val+"()")
+    return ret
+  }catch(e){
+    return "no function"
+  } 
   if (val == "日本語") {
     var hirachin = new Person("ひらちん", "オッス！")
     // メソッドを実行する
