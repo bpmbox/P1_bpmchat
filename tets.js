@@ -31,7 +31,7 @@ function test(val) {
     const id = '********'; //ドキュメントID
     const documentById = DocumentApp.openById(id);
     console.log(documentById.getName()); //ドキュメント名
-    }cattch(e){
+    }catch(e){
       return(e)
     }
   }
