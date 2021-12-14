@@ -122,6 +122,23 @@ return react;
       userProperties.setProperty('SPREAD_SHEET_ID', ss.getId());
     }
   }
+const im = `
+class="vote_button_container"></div><input></input><button></button>　/message/
+          <script>
+        document.querySelectorAll('.vote_button_container')
+            .forEach(domContainer => {
+                ReactDOM.render(
+                    React.createElement(VoteButton),
+                    domContainer
+                );
+            });
+    </script>
+          display
+
+`
+function 画面(){
+return im
+}
 
   //harahetta       sssssssssssssssss
   function おしっこ() {
