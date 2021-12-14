@@ -1,3 +1,5 @@
+
+//GASプラグイン言葉によって処理を変更します
 function test(val){
   
   function didmount(){
