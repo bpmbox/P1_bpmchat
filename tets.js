@@ -8,6 +8,17 @@ function test(val){
   function willmount(){
   }
 
+function myFunction22_02_01() {
+  const response = UrlFetchApp.fetch('https://tonari-it.com');
+  console.log(response.getResponseCode()); //200
+  
+  const headers = response.getHeaders();
+  for (const key in headers) console.log(key, headers[key]);
+
+  console.log(response.getContentText());
+}
+
+
   // Personクラスを定義する（引数付き）
   class Person {
     // プロパティを追加する
@@ -24,10 +35,10 @@ function test(val){
   }
 
 　// new演算子で引数を渡してインスタンスを作成する
-  if(val == "日本語")
+  if(val == "日本語"){
 　   var hirachin = new Person("ひらちん","オッス！")
-
-　// メソッドを実行する
-　return hirachin.greeting()
+　   // メソッドを実行する
+　   return hirachin.greeting()
+  }
 }
 
