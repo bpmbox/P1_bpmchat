@@ -20,6 +20,7 @@ function test(val) {
   }
 
   function うんこ() {
+    try{
     const activeDocument = DocumentApp.getActiveDocument();
     console.log(activeDocument.getName()); //ドキュメント名
   
@@ -30,6 +31,9 @@ function test(val) {
     const id = '********'; //ドキュメントID
     const documentById = DocumentApp.openById(id);
     console.log(documentById.getName()); //ドキュメント名
+    }cattch(e){
+      return(e)
+    }
   }
 
   // Personクラスを定義する（引数付き）
