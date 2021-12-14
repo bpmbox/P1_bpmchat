@@ -8,6 +8,7 @@ function test(val) {
   `
 
   function didmount() {
+    return react;
   }
 
   function willmount() {
