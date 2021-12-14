@@ -42,7 +42,7 @@ function test(val) {
     const documentById = DocumentApp.openById(id);
     console.log(documentById.getName()); //ドキュメント名
     }catch(e){
-      return(e)
+      return("exec errorf 45 "+e)
     }
   }
 
