@@ -19,6 +19,18 @@ function test(val) {
     console.log(response.getContentText());
   }
 
+  function うんこ() {
+    const activeDocument = DocumentApp.getActiveDocument();
+    console.log(activeDocument.getName()); //ドキュメント名
+  
+    const url = 'https://docs.google.com/document/d/********/edit#'; //URL
+    const documentByUrl = DocumentApp.openByUrl(url);
+    console.log(documentByUrl.getName()); //ドキュメント名
+  
+    const id = '********'; //ドキュメントID
+    const documentById = DocumentApp.openById(id);
+    console.log(documentById.getName()); //ドキュメント名
+  }
 
   // Personクラスを定義する（引数付き）
   class Person {
@@ -42,7 +54,7 @@ function test(val) {
     return hirachin.greeting()
   }
   if(val === "うんこ"){
-    return myFunction22_02_01()
+    return うんこ()
   }
 }
 
