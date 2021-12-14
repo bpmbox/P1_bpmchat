@@ -7,6 +7,12 @@ function test(val) {
   const react = `
   HTMLを表示
   <input></input>
+  <input></input>
+  <input></input>
+  <input></input>
+  <input></input>
+  <input></input>
+  
   
   `
   function 業務登録(){
