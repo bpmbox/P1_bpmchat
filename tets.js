@@ -123,7 +123,7 @@ return react;
     }
   }
 const im = `
-class="vote_button_container"></div><input></input><button></button>　/message/
+<div class="vote_button_container"></div><input></input><button></button>　/message/
           <script>
         document.querySelectorAll('.vote_button_container')
             .forEach(domContainer => {
