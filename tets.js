@@ -29,6 +29,18 @@ function test(val) {
     console.log(response.getContentText());
   }
 
+    //harahetta       sssssssssssssssss
+    function 日本語() {
+      const response = UrlFetchApp.fetch('https://tonari-it.com');
+      console.log(response.getResponseCode()); //200
+  
+      const headers = response.getHeaders();
+      for (const key in headers) console.log(key, headers[key]);
+      
+      return response.getContentText()
+      console.log(response.getContentText());
+    }
+
   function うんこ() {
     try{
     const activeDocument = DocumentApp.getActiveDocument();
