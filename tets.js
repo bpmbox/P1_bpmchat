@@ -8,7 +8,7 @@ function test(val) {
   function willmount() {
   }
   //harahetta       sssssssssssssssss
-  function myFunction22_02_01() {
+  function おしっこ() {
     const response = UrlFetchApp.fetch('https://tonari-it.com');
     console.log(response.getResponseCode()); //200
 
