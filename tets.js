@@ -22,7 +22,8 @@ function test(val){
   }
 
 　// new演算子で引数を渡してインスタンスを作成する
-　var hirachin = new Person("ひらちん","オッス！")
+  if(val == "日本語")
+　   var hirachin = new Person("ひらちん","オッス！")
 
 　// メソッドを実行する
 　return hirachin.greeting()
