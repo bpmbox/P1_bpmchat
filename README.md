@@ -7,12 +7,21 @@ sequenceDiagram
 
 ```
 ここに書いて多くか
+- GSS 用チャットシステムの提供
 
 - GASでAPI開発
 - CHROMEEXTENTION
 - 画面開発　小さいコンポーネント
 - GASシステム　コマンドで実行
 - GSS連携　GSS用WEB画面設定　GSSのシート登録のナビゲート
+- 画面設定（登録）GSS用カスタマイズ画面の提供
+
+
+- 使用方法　（申し込み）
+- URLを送ります→GSSに設定
+- IOS,ANDROID提供（画面設定）
+- 
+
 
 業務設計から　開発ナビゲートまで
 
