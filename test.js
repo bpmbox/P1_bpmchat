@@ -173,6 +173,7 @@ const View = ({ children }: { children: Node }) => {
 
       saveTutorial() {
       alert("compornent test")
+        alert(this.state.name)
         let data = {
           title: this.state.title,
           description: this.state.description,
