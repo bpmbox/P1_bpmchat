@@ -22,7 +22,7 @@ import {
   };
   
   // このコメントアウトを解除すると詳細なログが表示される
-  // enableLogging(console.log);
+  enableLogging(console.log);
   
   const app = initializeApp(firebaseConfig);
   const db = getDatabase(app);
