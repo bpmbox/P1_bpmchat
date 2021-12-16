@@ -172,7 +172,7 @@ class VoteButton extends React.Component {
   }
 
   saveTutorial(prop) {
-    alert(JSON.stringify(poop))
+    alert(JSON.stringify(prop))
     alert("compornent test" + this.state.name)
     //alert(this.state.name)
     let data = {
