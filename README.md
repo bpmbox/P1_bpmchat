@@ -10,7 +10,9 @@ sequenceDiagram
 
 - GASでAPI開発
 - CHROMEEXTENTION
-- 
+- 画面開発　小さいコンポーネント
+- GASシステム　コマンドで実行
+- GSS連携　GSS用WEB画面設定　GSSのシート登録のナビゲート
 
 業務設計から　開発ナビゲートまで
 
