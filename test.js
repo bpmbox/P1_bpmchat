@@ -150,6 +150,7 @@ class VoteButton extends React.Component {
     };
     this.onChangeName = this.onChangeName.bind(this);
     this.onChangeText = this.onChangeText.bind(this);
+    this.saveTutorial = this.saveTutorial.bind(this);
 
   }
 
