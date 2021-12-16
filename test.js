@@ -145,7 +145,7 @@ class VoteButton extends React.Component {
     super(props);
     this.state = {
       voted: false,
-      name: "",
+      name: props.name,
       text: "",
     };
     this.onChangeName = this.onChangeName.bind(this);
@@ -175,7 +175,15 @@ class VoteButton extends React.Component {
   saveTutorial(prop) {
     alert(JSON.stringify(prop))
     alert("compornent test" + this.state.name)
+    //bin.saveTrutril -> saveTrutorial
+    //saveTutorial -> Code:321:sendMesasge
+    //言葉でいうと　Code３２１
+    //class seaquace を各　状態遷移は　ボット制御
     //alert(this.state.name)
+    //riraki Is Add   Dsiplay Is Change
+    //Eveloy time change data
+    //If get the Change Data  puto that Date to Dsiply
+    //
     let data = {
       title: this.state.title,
       description: this.state.description,

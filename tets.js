@@ -138,7 +138,10 @@ function test(val) {
           display
 
 `
+//Input Dsipy -> Dsip Aplication.script.画面(data:json)
+//Disp -> AAAAAA
   function 画面() {
+    //caluction function and return image with Dasta
     return im
   }
 
