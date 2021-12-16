@@ -223,7 +223,10 @@ class VoteButton extends React.Component {
               name="name"
             />
           </div>
-          <button onClick={this.saveTutorial(this.state)} className="btn btn-success">
+          <button onClick=
+          {
+            ()=>this.saveTutorial(this.state)
+          } className="btn btn-success">
             Submit
           </button>
           <button onClick={
