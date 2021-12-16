@@ -6,7 +6,11 @@ sequenceDiagram
     フライパン -->> コック : 焼き上がり
 
 ```
+ここに書いて多くか
 
+- GASでAPI開発
+- CHROMEEXTENTION
+- 
 
 業務設計から　開発ナビゲートまで
 
