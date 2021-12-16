@@ -7,6 +7,11 @@ simplemde http://unitopi.com/markdown-editor/
 https://qiita.com/ka215/items/a709665cb34c505ccf1f
 ## Welcome to GitHub Pages
 
+
+deno(https://dash.deno.com/projects/bitter-rabbit-21)
+denoplaygrounnd(https://dash.deno.com/playground/cloudy-hedgehog-41)
+denodo(https://deno.com/deploy/docs/using-jsx)
+
 今日やること
 - EXPOSNACKで表示
 - 部品まとめ

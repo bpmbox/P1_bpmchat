@@ -171,7 +171,8 @@ class VoteButton extends React.Component {
     });
   }
 
-  saveTutorial() {
+  saveTutorial(prop) {
+    alert(JSON.stringify(poop))
     alert("compornent test" + this.state.name)
     //alert(this.state.name)
     let data = {
@@ -222,7 +223,7 @@ class VoteButton extends React.Component {
               name="name"
             />
           </div>
-          <button onClick={this.saveTutorial} className="btn btn-success">
+          <button onClick={this.saveTutorial(this.state)} className="btn btn-success">
             Submit
           </button>
           <button onClick={
