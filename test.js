@@ -1,5 +1,9 @@
 'use strict';
 //alert("test")
+
+function pushFirabase(){
+}
+
 const Test = ({ children }: { children: Node }) => {
   return (
     <div className="childrenTitle">
