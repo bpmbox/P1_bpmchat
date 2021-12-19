@@ -1,5 +1,10 @@
 # bpmchat
 
+sequenceDiagram
+    コック ->> フライパン: ハンバーグを焼く
+    フライパン -->> コック : 焼き上がり
+
+
 ```mermaid
 sequenceDiagram
     コック ->> フライパン: ハンバーグを焼く
