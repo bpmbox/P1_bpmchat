@@ -53,7 +53,7 @@ class VoteButton2 extends React.Component {
     this.onChangeName = this.onChangeName.bind(this);
     this.onChangeText = this.onChangeText.bind(this);
     
-        var config = {
+    this.config = {
       apiKey: "AIzaSyCsOjFyAAuFr1CITcnufG-GpZBKpLgUP90",
       authDomain: "rpa999-56929.firebaseapp.com",
       databaseURL: "https://rpa999-56929.firebaseio.com",
@@ -63,7 +63,7 @@ class VoteButton2 extends React.Component {
       appId: "1:155298248089:web:e25d64dc9f5370c4"
     };
 
-    firebase.initializeApp(config);
+    firebase.initializeApp(this.config);
 
     // データベースの参照を準備
     this.messagesRef = firebase.database().ref().child('<?=ken?>')
