@@ -133,6 +133,24 @@ class VoteButton2 extends React.Component {
           }>
             voted
           </button>
+<div class="mermaid">
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+</div>
+
+        And here is another:
+<div class="mermaid">
+graph TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+</div>
         </div>
       )
     } else {
