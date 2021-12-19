@@ -238,6 +238,30 @@ class VoteButton extends React.Component {
               name="name"
             />
           </div>
+             <div className="form-group">
+            <label htmlFor="description">name</label>
+            <textarea
+              type="text"
+              className="form-control"
+              id="name2"
+              required
+              value={this.state.name}
+              onChange={this.onChangeName}
+              name="name"
+            />
+          </div>
+             <div className="form-group">
+            <label htmlFor="description">name</label>
+            <textarea
+              type="text"
+              className="form-control"
+              id="name5"
+              required
+              value={this.state.name}
+              onChange={this.onChangeName}
+              name="name"
+            />
+          </div>
           <button onClick=
           {
             ()=>this.saveTutorial(this.state)
