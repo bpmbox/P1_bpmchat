@@ -4,7 +4,21 @@
  * 検索内容の随時追加
  */
 function test(val) {
-  const react = `
+  
+     
+ const aaaa = "VoteButton2"
+ const react = `<script>eval(document.querySelectorAll('.vote_button_container2')
+            .forEach(domContainer => {
+                ReactDOM.render(
+                    React.createElement(${aaaa}),
+                    domContainer
+                ); 
+            }))</script>`
+ //const ev = "eval(aaa)"
+  
+  //const react = '<script>${aaa}${ev}</script>'
+  
+  const reacta = `
   HTMLを表示
   <input></input>
   <input></input>
