@@ -192,7 +192,7 @@ class VoteButton extends React.Component {
     //
     alert(ken)
     
-            var messagesRef = firebase.database().ref().child('messagessac')
+            var messagesRef = firebase.database().ref().child(ken)
         messagesRef.push({
           name: this.state.name,
           text: this.state.name
