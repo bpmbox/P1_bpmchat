@@ -4,7 +4,15 @@
  * 検索内容の随時追加
  */
 function test(val) {
-  
+const flowa = `
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great! https://jp
+    John->>+test: aaaaaaa
+    test->>-aaa: aaaa
+`
      
  const aaaa = "VoteButton2"
  const react = `<div class="vote_button_container2"></div><script>eval(document.querySelectorAll('.vote_button_container2')
@@ -66,6 +74,11 @@ function test(val) {
   function 業務フロー(){
     return `<a href="" target=_blunk>画面</a>`
   }
+  
+  function フローチャート(){
+    return 
+  }
+
 
 
   function getFromDataba() {
