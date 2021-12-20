@@ -5,6 +5,7 @@
  */
 function test(val) {
 const flowa = `
+<div class="mermaid">
 sequenceDiagram
     Alice->>+John: Hello John, how are you?
     Alice->>+John: John, can you hear me?
@@ -12,6 +13,7 @@ sequenceDiagram
     John-->>-Alice: I feel great! https://jp
     John->>+test: aaaaaaa
     test->>-aaa: aaaa
+</div>    
 `
      
  const aaaa = "VoteButton2"
