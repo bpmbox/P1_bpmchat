@@ -25,6 +25,15 @@ sequenceDiagram
                 ); 
             }))</script>`
  //const ev = "eval(aaa)"
+ 
+ const compa = "VoteButton"
+ const reactc = `<div class="vote_button_container2"></div><script>eval(document.querySelectorAll('.vote_button_container2')
+            .forEach(domContainer => {
+                ReactDOM.render(
+                    React.createElement(${compa}),
+                    domContainer
+                ); 
+            }))</script>`
   
   //const react = '<script>${aaa}${ev}</script>'
   
@@ -71,6 +80,10 @@ sequenceDiagram
 
   function 業務登録() {
     return react;
+  }
+    
+      function 200() {
+    return reactc;
   }
 
   function 業務フロー(){
