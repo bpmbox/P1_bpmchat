@@ -190,6 +190,7 @@ class VoteButton extends React.Component {
     //Eveloy time change data
     //If get the Change Data  puto that Date to Dsiply
     //
+    alert(ken)
     
             var messagesRef = firebase.database().ref().child('messagessac')
         messagesRef.push({
