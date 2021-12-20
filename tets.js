@@ -76,7 +76,7 @@ sequenceDiagram
   }
   
   function フローチャート(){
-    return 
+    return flowa
   }
 
 
