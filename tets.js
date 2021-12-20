@@ -7,7 +7,7 @@ function test(val) {
   
      
  const aaaa = "VoteButton2"
- const react = `<script>eval(document.querySelectorAll('.vote_button_container2')
+ const react = `<div class="vote_button_container2"></div><script>eval(document.querySelectorAll('.vote_button_container2')
             .forEach(domContainer => {
                 ReactDOM.render(
                     React.createElement(${aaaa}),
