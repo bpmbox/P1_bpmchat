@@ -191,7 +191,7 @@ sequenceDiagram
   }
 
   //harahetta       sssssssssssssssss
-  function おしっこ() {
+  function サーバーサイド４() {
     const response = UrlFetchApp.fetch('https://tonari-it.com');
     console.log(response.getResponseCode()); //200
 
@@ -214,7 +214,7 @@ sequenceDiagram
     console.log(response.getContentText());
   }
 
-  function うんこ() {
+  function サーバーサイド() {
     try {
       const activeDocument = DocumentApp.getActiveDocument();
       console.log(activeDocument.getName()); //ドキュメント名
@@ -266,11 +266,11 @@ sequenceDiagram
     // メソッドを実行する
     return hirachin.greeting()
   }
-  if (val === "うんこ") {
-    return うんこ()
+  if (val === "サーバーサイド") {
+    return サーバーサイド()
   }
-  if (val === "おしっこ") {
-    return おしっこ()
+  if (val === "サーバーサイド") {
+    return サーバーサイド()
   }
 
 
