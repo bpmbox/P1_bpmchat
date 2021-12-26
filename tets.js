@@ -85,7 +85,7 @@ sequenceDiagram
     return react;
   }
     
-      function 画面削除() {
+  function 画面削除() {
     return reactc;
   }
 
