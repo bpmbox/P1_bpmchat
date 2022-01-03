@@ -1,74 +1,153 @@
-# bpmchat
+# Google Apps Script Samples [![Build Status](https://travis-ci.org/googleworkspace/apps-script-samples.svg?branch=master)](https://travis-ci.org/googleworkspace/apps-script-samples)
 
-sequenceDiagram
-    コック ->> フライパン: ハンバーグを焼く
-    フライパン -->> コック : 焼き上がり
+Various sample code and projects for the Google Apps Script platform, a JavaScript platform in the cloud.
 
+Learn more at [developers.google.com](https://developers.google.com/apps-script).
 
-```mermaid
-sequenceDiagram
-    コック ->> フライパン: ハンバーグを焼く
-    フライパン -->> コック : 焼き上がり
+## Google APIs
 
+<img
+src="https://www.gstatic.com/images/branding/product/2x/admin_96dp.png"
+align="left"
+width="96px"/>
+### AdminSDK
+- [Manage domains and apps](adminSDK)
+<br><br>
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/google_cloud_96dp.png"
+align="left"
+width="96px"/>
+### Advanced Services
+- [Access Google APIs via Advanced Google services](advanced/)
+<br><br>
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/calendar_96dp.png"
+align="left"
+width="96px"/>
+### Calendar
+- [List upcoming events](calendar/quickstart)
+- [Create a vacation calendar](calendar/vacationCalendar)
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/classroom_96dp.png"
+align="left"
+width="96px"/>
+### Classroom
+- [Manage Google Classroom](classroom/quickstart)
+<br><br>
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/data_studio_96dp.png"
+align="left"
+width="96px"/>
+### Data Studio
+- [Build a connector](data-studio/build.gs)
+- [Authentication and Authorization](data-studio/auth.gs)
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/docs_96dp.png"
+align="left"
+width="96px"/>
+### Docs
+- [Cursor inspector add-on](docs/cursorInspector)
+- [Translate add-on](docs/translate)
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/drive_96dp.png"
+align="left"
+width="96px"/>
+### Drive
+- [Manage Google Drive files and folders](drive/quickstart)
+- [View Google Drive activity](drive/activity)
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/forms_96dp.png"
+align="left"
+width="96px"/>
+### Forms
+- [Notification add-on](forms)
+<br><br>
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/gmail_96dp.png"
+align="left"
+width="96px"/>
+### Gmail
+- [Sending email](gmail/sendingEmails)
+- [Mailmerge: Merge a template email with content](gmail/mailmerge)
+
+<img
+src="https://www.gstatic.com/images/icons/material/system/2x/people_black_48dp.png"
+align="left"
+width="96px"/>
+### People
+- [Listing Connections](people/quickstart)
+<br><br>
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/sheets_96dp.png"
+align="left"
+width="96px"/>
+### Sheets
+- [Managing Responses for Google Forms](sheets)
+- [Menus and Custom Functions](sheets)
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/slides_96dp.png"
+align="left"
+width="96px"/>
+### Slides
+- [Translate Slides Add-on](slides/translate)
+- [Progress Bars add-on](slides/progress)
+
+<img
+src="https://www.gstatic.com/images/branding/product/2x/tasks_96dp.png"
+align="left"
+width="96px"/>
+### Tasks
+- [List Tasks](tasks/quickstart)
+- [Simple Tasks Web App](tasks/simpleTasks)
+
+<img
+src="https://www.gstatic.com/images/icons/material/system/2x/code_grey600_48dp.png"
+align="left"
+width="96px"/>
+### Templates
+- Build off a working framework for new Apps Script projects.
+<br><br>
+
+<img
+src="https://www.gstatic.com/images/icons/material/system/2x/alarm_grey600_48dp.png"
+align="left"
+width="96px"/>
+### Triggers
+- Call an Apps Script function such as `onOpen`, `onEdit`, or `onInstall` in an add-on
+- Create a [time-driven trigger](https://developers.google.com/apps-script/guides/triggers/installable#time_driven_triggers)
+
+## Codelabs
+
+Codelab tutorials combine detailed explanation, coding exercises, and documented best practices to help engineers get up to speed with key Google technologies. Here's a list of Apps Script codelabs:
+
+- [Apps Script Intro](http://g.co/codelabs/apps-script-intro)
+- [Apps Script CLI – clasp](http://g.co/codelabs/clasp)
+- [BigQuery + Sheets + Slides](http://g.co/codelabs/bigquery-sheets-slides)
+- [Docs Add-on + Cloud Natural Language API](http://g.co/codelabs/nlp-docs)
+- [Gmail Add-ons](http://g.co/codelabs/gmail-add-ons)
+- [Hangouts Chat Bots](http://g.co/codelabs/chat-apps-script)
+
+## Clone using the `clasp` command-line tool
+
+Learn how to clone, pull, and push Apps Script projects on the command-line
+using [clasp](https://developers.google.com/apps-script/guides/clasp).
+
+## Lint
+
+Run ESLint over this whole repository with:
+
+```shell
+npm run lint
 ```
-ここに書いて多くか
-- GSS 用チャットシステムの提供
 
-- GASでAPI開発
-- CHROMEEXTENTION
-- 画面開発　小さいコンポーネント
-- GASシステム　コマンドで実行
-- GSS連携　GSS用WEB画面設定　GSSのシート登録のナビゲート
-- 画面設定（登録）GSS用カスタマイズ画面の提供
-
-
-- 使用方法　（申し込み）
-- URLを送ります→GSSに設定
-- IOS,ANDROID提供（画面設定）
-- 
-
-
-業務設計から　開発ナビゲートまで
-
-https://www.google.com/search?q=github+%E6%A4%9C%E7%B4%A2%E6%96%B9%E6%B3%95&rlz=1C1AGAK_jaJP963JP963&oq=github+%E6%A4%9C%E7%B4%A2%E6%96%B9%E6%B3%95&aqs=chrome..69i57j69i64.9856j0j7&sourceid=chrome&ie=UTF-8
-
-流れ
-
-そこから先はそれぞれの開発
-
-→それぞれの業務毎に　業務サポートと専用チャットをつける
-
-→いろいろな技術に凝らなく　シンプルにカスタマイズできるもの
-
-bpmchatproject
-
-メモ代わりでいいや
-
-うーむ　これチャットに組み込めないないかなー
-
-開発　
-　→チャット　GIT　
- →ドライブ
- 
- 　→Colab
-  　→GAS
-   
-   Lara el
-   Django
-   
-   やること
-   ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
-   
-   ```mermaid
-sequenceDiagram
-participant cook as コック
-participant kitchenware1 as フライパン
-    cook ->> kitchenware1: ハンバーグを焼く
-    kitchenware1 -->> cook : 焼き上がり
-
-```
-   
-   
-   
-
-
+This command will fix simple errors.
