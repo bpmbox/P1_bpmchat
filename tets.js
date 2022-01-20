@@ -169,6 +169,8 @@ sequenceDiagram
       userProperties.setProperty('SPREAD_SHEET_ID', ss.getId());
     }
   }
+  //display react native data
+  //クエリーストリングで各種画面にコンポーネントの追加
   const im = `
 <div class="vote_button_container"></div><input></input><button></button>　/message/
           <script>
