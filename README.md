@@ -7,6 +7,8 @@
 # Django
 # Google colab
 # OpenAI
+# ChatworkBot
+# LineBot
 # APIServer(Laravel Django hasura)
 ### Line
 ### OCR
