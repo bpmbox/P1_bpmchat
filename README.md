@@ -8,6 +8,7 @@
 # laravel
 # Django
 # Google colab
+  https://colab.research.google.com/github/Pippippi3104/colab_sample/blob/master/github.ipynb
 # OpenAI
 # ChatworkBot
 # LineBot
