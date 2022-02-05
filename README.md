@@ -3,6 +3,8 @@
 <a href="https://docs.google.com/spreadsheets/d/15RR8KdM2yseGNzyem_OnHc7OwDNij8OLic8OKcJbxPU/edit#gid=674693680" target=_blunk>spreadsheet</a>
 - SpreadSheetにシステムを統一
 # ReatNative
+# Expo
+  https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
 # laravel
 # Django
 # Google colab
