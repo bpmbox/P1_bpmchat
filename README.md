@@ -14,6 +14,7 @@
 # ChatworkBot
 # LineBot
 # APIServer(Laravel Django hasura)
+  https://hasura.io/docs/latest/graphql/core/guides/mysql-preview.html
 ### Line
 ### OCR
 ### GoogleCustomSearch
