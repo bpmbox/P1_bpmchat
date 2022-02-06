@@ -19,6 +19,7 @@
   - apigateway gcp のFunction と比較（FiraBase連携）
   - cloudfront
   - ahuna nosql query https://aws.amazon.com/jp/athena/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
+  - ses https://aws.amazon.com/jp/ses/
 # github
   - action gas
   - action eca
