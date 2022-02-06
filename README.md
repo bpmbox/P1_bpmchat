@@ -34,6 +34,7 @@
   - graphql https://don-bu-rakko.com/laravel-%E3%81%A7-graphql-%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B%EF%BC%81-lighthouse%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3/
   - scaffold
 # Django
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-python-django)
   - template https://gitpod.io/#https://github.com/gitpod-io/template-python-django
   - template github https://github.com/gitpod-io/template-python-django
   - Document https://docs.djangoproject.com/ja/4.0/intro/tutorial03/
