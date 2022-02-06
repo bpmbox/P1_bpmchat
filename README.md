@@ -33,6 +33,8 @@
   - push https://github.com/jazzband/django-silk
 # Google colab
   https://colab.research.google.com/github/Pippippi3104/colab_sample/blob/master/github.ipynb
+  - visualstdio code
+  - google spread https://developers.google.com/sheets/api/quickstart/python (gas ＋　Python で制御）
 # OpenAI
   https://beta.openai.com/examples/
 # ChatworkBot
