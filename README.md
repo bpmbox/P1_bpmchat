@@ -26,10 +26,11 @@
 # github
   - action gas
   - action eca
-# ReatNative
+# ReatNative React
   https://v5.reactrouter.com/web/example/nesting
   - reactbase
   - builderx(GUIのデザイン）
+  - https://www.gitpod.io/docs/quickstart/react(REACTのデバッグ方法確認）
 # Expo
   https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
   - ecs ios build
