@@ -12,6 +12,7 @@
   - routes3
   - lambda
   - cloudfront
+  - ahuna nosql query https://aws.amazon.com/jp/athena/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
 # github
   - action gas
   - action eca
