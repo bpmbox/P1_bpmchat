@@ -4,6 +4,7 @@
   - サービス用はDockerで起動
 <a href="https://docs.google.com/spreadsheets/d/15RR8KdM2yseGNzyem_OnHc7OwDNij8OLic8OKcJbxPU/edit#gid=674693680" target=_blunk>spreadsheet</a>
 - SpreadSheetにシステムを統一
+- 単体テストは　スプレッドシートに関数を記載して一括テスト
 # AWS
   - btobe
   - ecr
