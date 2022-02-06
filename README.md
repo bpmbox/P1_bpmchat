@@ -24,6 +24,7 @@
   - ecs ios build
 # laravel
 # Django
+  - Document https://docs.djangoproject.com/ja/4.0/intro/tutorial03/
   - celery バックグラウンドキュー　https://qiita.com/kwi/items/bd289aeff0fa5881e797
 # Google colab
   https://colab.research.google.com/github/Pippippi3104/colab_sample/blob/master/github.ipynb
