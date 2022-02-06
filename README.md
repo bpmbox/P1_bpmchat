@@ -9,10 +9,15 @@
   - cloudfrong
   - routes3
   - lambda
+  - cloudfront
+# github
+  - action gas
+  - action eca
 # ReatNative
   https://v5.reactrouter.com/web/example/nesting
 # Expo
   https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
+  - ecs ios build
 # laravel
 # Django
 # Google colab
