@@ -5,6 +5,10 @@
 <a href="https://docs.google.com/spreadsheets/d/15RR8KdM2yseGNzyem_OnHc7OwDNij8OLic8OKcJbxPU/edit#gid=674693680" target=_blunk>spreadsheet</a>
 - SpreadSheetにシステムを統一
 - 単体テストは　スプレッドシートに関数を記載して一括テスト
+
+# APPSHEET
+- アプリの雛型の作成
+
 # AWS
   - btobe
   - ecr
@@ -20,6 +24,8 @@
   - action eca
 # ReatNative
   https://v5.reactrouter.com/web/example/nesting
+  - reactbase
+  - builderx(GUIのデザイン）
 # Expo
   https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
   - ecs ios build
