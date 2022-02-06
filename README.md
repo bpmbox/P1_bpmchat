@@ -40,6 +40,12 @@
   - profile https://github.com/jazzband/django-silk
   - push https://github.com/jazzband/django-silk
   - graphql https://django-graphql-auth.readthedocs.io/en/latest/
+# GraphQL
+  - gas
+  - python
+  - php
+  - nodejs
+  - hasura
 # Google colab
   https://colab.research.google.com/github/Pippippi3104/colab_sample/blob/master/github.ipynb
   - visualstdio code
