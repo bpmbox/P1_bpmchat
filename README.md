@@ -26,6 +26,8 @@
 # Django
   - Document https://docs.djangoproject.com/ja/4.0/intro/tutorial03/
   - celery バックグラウンドキュー　https://qiita.com/kwi/items/bd289aeff0fa5881e797
+  - debug https://djangobrothers.com/blogs/django_debug_toolbar/
+  - graphqllog https://www.moesif.com/
 # Google colab
   https://colab.research.google.com/github/Pippippi3104/colab_sample/blob/master/github.ipynb
 # OpenAI
