@@ -2,8 +2,7 @@
 # BPMS CHAT (業務フローを元に作成）
   - 開発は単体テストの為、GITPODで単体でステップ実行
   - サービス用はDockerで起動
-<a href="https://docs.google.com/spreadsheets/d/15RR8KdM2yseGNzyem_OnHc7OwDNij8OLic8OKcJbxPU/edit#gid=674693680" target=_blunk>spreadsheet</a>
-- SpreadSheetにシステムを統一
+- <a href="https://docs.google.com/spreadsheets/d/15RR8KdM2yseGNzyem_OnHc7OwDNij8OLic8OKcJbxPU/edit#gid=674693680" target=_blunk>spreadsheet</a>SpreadSheetにシステムを統一
 - 単体テストは　スプレッドシートに関数を記載して一括テスト
 
 # BPMS
