@@ -44,6 +44,8 @@
 
 デバッグURL
 
+- cloud9上でデバッグ実行をして、リモートからURLをたたく（GITPODでも同じか）
+
 https://4fb1-35-72-50-16.ngrok.io/zend/sales_performance?XDEBUG_SESSION_START=cloud9ide
 
 1. 上記のURLを実行
