@@ -54,6 +54,7 @@
   - profile https://github.com/jazzband/django-silk
   - push https://github.com/jazzband/django-silk
   - graphql https://django-graphql-auth.readthedocs.io/en/latest/
+  - elasticapm https://dev.classmethod.jp/articles/get-started-elastic-apm/
 # GraphQL
   - gas
   - python
