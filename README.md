@@ -35,12 +35,13 @@
   - reactbase
   - builderx(GUIのデザイン）
   - https://www.gitpod.io/docs/quickstart/react(REACTのデバッグ方法確認）
-# Expo
+# Expo(step debug 確認）
   https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
   - ecs ios build
 # laravel(STEP デバッグの確認GITPOD)　20220208 これが出来た後、APPSHEETで開発
   - graphql https://don-bu-rakko.com/laravel-%E3%81%A7-graphql-%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B%EF%BC%81-lighthouse%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3/
   - scaffold
+![image](https://user-images.githubusercontent.com/1344355/152865286-8d09222e-1bd0-46dd-b606-418998b1f1cf.png)
 
 デバッグURL
 
