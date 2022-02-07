@@ -64,6 +64,7 @@
   https://colab.research.google.com/github/Pippippi3104/colab_sample/blob/master/github.ipynb
   - visualstdio code
   - google spread https://developers.google.com/sheets/api/quickstart/python (gas ＋　Python で制御）
+  - GOOGLE 操作　https://colab.research.google.com/notebooks/io.ipynb#scrollTo=J4QxBareshEV
 # OpenAI
   https://beta.openai.com/examples/
 # ChatworkBot
