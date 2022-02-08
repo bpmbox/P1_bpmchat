@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/1344355/152995665-0d114337-7384-403e-bcdb-4711f03c80af.png)
 
 ## 方針
-- 情報基盤
+- 情報基盤　PHP業務システム(PHPRUNNER)
 - API（NODE,PYTHON,PHP GraphQL)
 - 開発などの資料まとめ、業務（GSS)
 - 業務ロジック（GAS)
