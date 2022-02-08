@@ -5,6 +5,7 @@
 
 ## 方針
 - 情報基盤　PHP業務システム(PHPRUNNER)
+- 業務フロー　画面　BPMS(Processmaker）
 - API（NODE,PYTHON,PHP GraphQL)
 - 開発などの資料まとめ、業務（GSS)
 - 業務ロジック（GAS)
