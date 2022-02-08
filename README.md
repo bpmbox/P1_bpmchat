@@ -3,6 +3,14 @@
 
 ![image](https://user-images.githubusercontent.com/1344355/152995665-0d114337-7384-403e-bcdb-4711f03c80af.png)
 
+## 方針
+- 情報基盤
+- API（NODE,PYTHON,PHP GraphQL)
+- 開発などの資料まとめ、業務（GSS)
+- 業務ロジック（GAS)
+- 業務用アプリ（APPSHEET)
+- 上記の内容を元に、ReactNaiveをベースとしてAPI通信のサービスの作成
+
   - 開発は単体テストの為、GITPODで単体でステップ実行
   - サービス用はDockerで起動
 - <a href="https://docs.google.com/spreadsheets/d/15RR8KdM2yseGNzyem_OnHc7OwDNij8OLic8OKcJbxPU/edit#gid=674693680" target=_blunk>spreadsheet</a>SpreadSheetにシステムを統一
