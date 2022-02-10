@@ -58,6 +58,7 @@
   - builderx(GUIのデザイン）
   - https://www.gitpod.io/docs/quickstart/react(REACTのデバッグ方法確認）
 # Expo(step debug 確認）
+ - https://snack.expo.dev/
   https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
   - ecs ios build
 # laravel(STEP デバッグの確認GITPOD)　20220208 これが出来た後、APPSHEETで開発
