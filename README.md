@@ -36,15 +36,19 @@
   - ecr
   - ec2
   - cloudfrong
-  - routes3
+  - routes3（Domain管理）
   - lambda
   - apigateway gcp のFunction と比較（FiraBase連携）
   - cloudfront
+  
   - ahuna nosql query https://aws.amazon.com/jp/athena/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
   - ses https://aws.amazon.com/jp/ses/
   - cloudwatch
   - kibana
   - travisci
+  - ELB(ロードバランサー）
+  - securitygroup(ファイヤーウォール設定）
+  - table(ルーティング設定）
 # github
   - action gas
   - action eca
