@@ -61,6 +61,11 @@
   - reactbase
   - builderx(GUIのデザイン）
   - https://www.gitpod.io/docs/quickstart/react(REACTのデバッグ方法確認）
+
+![image](https://user-images.githubusercontent.com/1344355/153439067-13df1bcd-b372-4f3e-9e96-7ea89406cf8d.png)
+1,vscodeをローカルで立てる
+2,task.json
+
 # Expo(step debug 確認）
  - https://snack.expo.dev/
   https://zenn.dev/hal1986/articles/20211225-eas-build-and-submit
