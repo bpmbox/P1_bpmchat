@@ -56,7 +56,7 @@
 # github
   - action gas
   - action eca
-# ReatNative React
+# ReatNative React(VS Codeでdebugが出来ないとキツイ）
   https://v5.reactrouter.com/web/example/nesting
   - reactbase
   - builderx(GUIのデザイン）
