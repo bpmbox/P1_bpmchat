@@ -107,7 +107,8 @@ https://URL?XDEBUG_SESSION_START=cloud9ide
   - google spread https://developers.google.com/sheets/api/quickstart/python (gas ＋　Python で制御）
   - GOOGLE 操作　https://colab.research.google.com/notebooks/io.ipynb#scrollTo=J4QxBareshEV
 # OpenAI
-  https://beta.openai.com/examples/
+  - https://beta.openai.com/examples/
+  - https://aihub.cloud.google.com/u/0/p/products%2Fec58b241-50d4-45e4-a673-4cfffceec8b3
 # ChatworkBot
 # LineBot
 # APIServer(Laravel Django hasura)
