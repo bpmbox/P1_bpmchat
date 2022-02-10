@@ -100,6 +100,7 @@ https://URL?XDEBUG_SESSION_START=cloud9ide
   - graphql https://django-graphql-auth.readthedocs.io/en/latest/
   - elasticapm https://dev.classmethod.jp/articles/get-started-elastic-apm/
 # GraphQL
+  - HASURA(TEST SITE)https://cloud.hasura.io/project/7b8a6471-20a5-45d0-b940-d16d5b133ace/console/data/manage/connect
   - gas
   - python
   - php
