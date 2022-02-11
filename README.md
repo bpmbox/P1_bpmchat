@@ -29,6 +29,9 @@
 - アプリの雛型の作成
 - sheetの内容を各種データに変換した後データ確認用のアプリを作成する
 
+![image](https://user-images.githubusercontent.com/1344355/153668920-b021911a-aa3c-4510-a910-e18a5caae12b.png)
+
+
 # opencolab
  - python https://colab.research.google.com/drive/12JbdQ8-Wsq1FJk0FKNSM7gtgBLf0RVu7
  - nodejs 設定方法
