@@ -130,6 +130,7 @@ https://URL?XDEBUG_SESSION_START=cloud9ide
   - https://aihub.cloud.google.com/u/0/p/products%2Fec58b241-50d4-45e4-a673-4cfffceec8b3
 # ChatworkBot
 # LineBot
+  - LINEAPI と GASでのチャットボット
 # APIServer(Laravel Django hasura)
   https://hasura.io/docs/latest/graphql/core/guides/mysql-preview.html
 ### Line
