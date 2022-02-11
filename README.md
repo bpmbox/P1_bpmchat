@@ -59,7 +59,8 @@
   - ELB(ロードバランサー）
   - securitygroup(ファイヤーウォール設定）
   - table(ルーティング設定）
-# github
+# github CIDI
+  - [gasの自動アップデート](https://github.com/bpmbox/gasaction)
   - action gas
   - action eca
 # ReatNative React(VS Codeでdebugが出来ないとキツイ）
