@@ -62,6 +62,9 @@
   - builderx(GUIのデザイン）
   - https://www.gitpod.io/docs/quickstart/react(REACTのデバッグ方法確認）
 
+1. navigation https://reactnavigation.org/docs/navigation-lifecycle
+2. redux 
+
 ![image](https://user-images.githubusercontent.com/1344355/153439067-13df1bcd-b372-4f3e-9e96-7ea89406cf8d.png)
 1,vscodeをローカルで立てる
 2,task.json
