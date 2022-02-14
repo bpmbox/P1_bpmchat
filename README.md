@@ -68,6 +68,7 @@
   - reactbase
   - builderx(GUIのデザイン）
   - https://www.gitpod.io/docs/quickstart/react(REACTのデバッグ方法確認）
+  - https://github.com/apolopena/express-react-starter(GITHUB Laravel starter)
 
 1. navigation https://reactnavigation.org/docs/navigation-lifecycle
 2. redux 
